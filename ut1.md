@@ -6,7 +6,7 @@
 
 ------
 
-Resultado de Aprendizaje 1 (RA 1): **Planifica la creación de una interfaz web valorando y aplicando especificaciones de diseño**
+Resultado de Aprendizaje 1 (RA 1): Planifica la creación de una interfaz web valorando y aplicando especificaciones de diseño
 
 ------
 
@@ -56,10 +56,10 @@ Resultado de Aprendizaje 1 (RA 1): **Planifica la creación de una interfaz web 
 
 ------
 
-- El **punto**
-- <!-- .element: class="fragment" -->La **línea**
-- <!-- .element: class="fragment" -->El **plano**
-- <!-- .element: class="fragment" -->El **volumen**
+- El punto
+- <!-- .element: class="fragment" -->La línea
+- <!-- .element: class="fragment" -->El plano
+- <!-- .element: class="fragment" -->El volumen
 
 ------
 
@@ -105,7 +105,7 @@ En una bandera pirata los símbolos utilizados... ¿qué representan? ¿Qué sig
 
 ------
 
-- La **psicología de la Gestalt** (psicología de la forma o configuración) es precisamente una teoría que estudia cómo configura la mente los elementos que recibe a través de los canales sensoriales y a través de la "memoria" (los recuerdos, los pensamientos...).
+- La psicología de la Gestalt (psicología de la forma o configuración) es precisamente una teoría que estudia cómo configura la mente los elementos que recibe a través de los canales sensoriales y a través de la "memoria" (los recuerdos, los pensamientos...).
 
 - <!-- .element: class="fragment" -->"El todo es más que la suma de las partes"
 
@@ -115,8 +115,8 @@ En una bandera pirata los símbolos utilizados... ¿qué representan? ¿Qué sig
 
 ------
 
-- Ley de **simplicidad, pregnancia o buena forma**: la mente atribuye la mejor forma posible a la percepción, tendiendo a adoptar las formas más simples posibles
-- <!-- .element: class="fragment" -->Ley de **figura-fondo**: no es posible percibir simultáneamente la misma zona como figura y fondo, por lo que siempre existen elementos en los que la conciencia se centra y elementos que esta ignora.
+- Ley de simplicidad, pregnancia o buena forma: la mente atribuye la mejor forma posible a la percepción, tendiendo a adoptar las formas más simples posibles
+- <!-- .element: class="fragment" -->Ley de figura-fondo: no es posible percibir simultáneamente la misma zona como figura y fondo, por lo que siempre existen elementos en los que la conciencia se centra y elementos que esta ignora.
 
 ------
 
@@ -124,15 +124,15 @@ En una bandera pirata los símbolos utilizados... ¿qué representan? ¿Qué sig
 
 ------
 
-- Principio de **proximidad**: los elementos aislados, pero con cierta cercanía, tienden a ser considerados como grupos.
-- <!-- .element: class="fragment" -->Principio de **semejanza**: Los elementos aislados, pero con cierta semejanza (color, forma, tamaño...), tienden a ser considerados como grupos.
-- <!-- .element: class="fragment" -->Principio de **simetría**: los elementos aislados, pero con cierta simetría, tienden a ser considerados como grupos.
+- Principio de proximidad: los elementos aislados, pero con cierta cercanía, tienden a ser considerados como grupos.
+- <!-- .element: class="fragment" -->Principio de semejanza: Los elementos aislados, pero con cierta semejanza (color, forma, tamaño...), tienden a ser considerados como grupos.
+- <!-- .element: class="fragment" -->Principio de simetría: los elementos aislados, pero con cierta simetría, tienden a ser considerados como grupos.
 
 ------
 
-- Principio de **continuidad**: Una forma es mejor percibida cuanto más continua sea. Si el patrón se rompe, la mente tiende a continuarlo. Si hay distintos elementos pero mantienen una dirección, están próximos y alineados 
-- <!-- .element: class="fragment" -->Principio de **cierre**: Una forma es mejor percibida cuanto más cerrada sea. Si un contorno no está completamente cerrado, la mente tiende a cerrarlo.
-- <!-- .element: class="fragment" -->Principio de **área o tamaño relativo**: A igualdad de otras condiciones, el área más pequeña tiende a percibirse como figura
+- Principio de continuidad: Una forma es mejor percibida cuanto más continua sea. Si el patrón se rompe, la mente tiende a continuarlo. Si hay distintos elementos pero mantienen una dirección, están próximos y alineados 
+- <!-- .element: class="fragment" -->Principio de cierre: Una forma es mejor percibida cuanto más cerrada sea. Si un contorno no está completamente cerrado, la mente tiende a cerrarlo.
+- <!-- .element: class="fragment" -->Principio de área o tamaño relativo: A igualdad de otras condiciones, el área más pequeña tiende a percibirse como figura
 
 ------
 
@@ -213,24 +213,24 @@ Barra que contiene el menú con los enlaces a las secciones de las que se compon
 
 Dentro de estas secciones, además de texto, existen otros elementos que se utilizan con frecuencia:
 
-- **Acordeón (Accordion)**: Elemento que expande (y muestra) o contrae (y oculta) secciones con contenido.
-- **Banner, Ad o Advertisement**: imagen (o animación) publicitaria.
-- **Tooltip**: pequeña caja de texto con información adicional que aparece al colocar el cursor sobre un elemento.
-- **Barra de Acciones (Action Bar)**: barra con enlaces o botones para realizar acciones relacionadas.
-- **Barra de Búsqueda (Search Bar)**: barra que permite al usuario escribir términos para realizar una búsqueda en la web.
-- **Barra de Progreso (Progress Bar)**: barra que muestra gráficamente el progreso de una acción.
-- **Carrusel (Carousel) o slider**: elemento que muestra imágenes de forma secuencial.
-- **Cuadros de diálogo (Dialog boxes)**: Son ventanas que se abren en pantalla para comunicar algo al usuario o para pedirle que elija una opción o que introduzca algún dato. Por ejemplo, cuando quieres guardar un archivo , se abre un cuadro de diálogo que permite indicar el nombre y la ubicación del archivo.
-- **Deslizador (Slider)**: Un deslizador o slider es un elemento que permite a los usuarios ajustar un valor desplazando un control deslizante a lo largo de una barra.
-- **Imagen destacada o imagen de portada**: Imagen de gran tamaño que suele aparecer al inicio de un sitio web y que sirve para destacar el mensaje, los productos o la esencia de una compañía.
-- **Llamada a la acción (Call to action)**: Es un botón o enlace situado en un sitio web que busca atraer clientes potenciales y convertirlos en clientes finales, normalmente a través de un formulario en una página de destino o landing page.
-- **Menú desplegable (Drop-down menu)**: Es un elemento de la interfaz gráfica de usuario que permite al usuario seleccionar una opción de una lista de opciones.
-- **Menú hamburguesa (Hamburger menu) o toggle (Toggle)**: Es un icono que se utiliza para representar un menú en dispositivos móviles. Cuando se hace clic en él, se despliega un menú con opciones.
-- **Migas de pan (Breadcrumbs)**: Son una serie de enlaces que muestran la ruta que ha seguido el usuario para llegar a una página en particular dentro de un sitio web.
-- **Notificaciones (Notifications)**: Son mensajes que informan al usuario sobre eventos importantes dentro de una aplicación.
-- **Paginado (Pagination)**: Es el proceso de dividir el contenido en varias páginas para facilitar la navegación y mejorar la experiencia del usuario.
-- **Rosco de carga (Spinner)**: Es un elemento gráfico que indica al usuario que una acción está en proceso y que debe esperar.
-- **Ventana emergente (Popup) o popover (Popover)**: Es una ventana que aparece en la pantalla sin haber sido solicitada por el usuario, normalmente con el fin de mostrar publicidad o información adicional.
+- Acordeón (Accordion): Elemento que expande (y muestra) o contrae (y oculta) secciones con contenido.
+- Banner, Ad o Advertisement: imagen (o animación) publicitaria.
+- Tooltip: pequeña caja de texto con información adicional que aparece al colocar el cursor sobre un elemento.
+- Barra de Acciones (Action Bar): barra con enlaces o botones para realizar acciones relacionadas.
+- Barra de Búsqueda (Search Bar): barra que permite al usuario escribir términos para realizar una búsqueda en la web.
+- Barra de Progreso (Progress Bar): barra que muestra gráficamente el progreso de una acción.
+- Carrusel (Carousel) o slider: elemento que muestra imágenes de forma secuencial.
+- Cuadros de diálogo (Dialog boxes): Son ventanas que se abren en pantalla para comunicar algo al usuario o para pedirle que elija una opción o que introduzca algún dato. Por ejemplo, cuando quieres guardar un archivo , se abre un cuadro de diálogo que permite indicar el nombre y la ubicación del archivo.
+- Deslizador (Slider): Un deslizador o slider es un elemento que permite a los usuarios ajustar un valor desplazando un control deslizante a lo largo de una barra.
+- Imagen destacada o imagen de portada: Imagen de gran tamaño que suele aparecer al inicio de un sitio web y que sirve para destacar el mensaje, los productos o la esencia de una compañía.
+- Llamada a la acción (Call to action): Es un botón o enlace situado en un sitio web que busca atraer clientes potenciales y convertirlos en clientes finales, normalmente a través de un formulario en una página de destino o landing page.
+- Menú desplegable (Drop-down menu): Es un elemento de la interfaz gráfica de usuario que permite al usuario seleccionar una opción de una lista de opciones.
+- Menú hamburguesa (Hamburger menu) o toggle (Toggle): Es un icono que se utiliza para representar un menú en dispositivos móviles. Cuando se hace clic en él, se despliega un menú con opciones.
+- Migas de pan (Breadcrumbs): Son una serie de enlaces que muestran la ruta que ha seguido el usuario para llegar a una página en particular dentro de un sitio web.
+- Notificaciones (Notifications): Son mensajes que informan al usuario sobre eventos importantes dentro de una aplicación.
+- Paginado (Pagination): Es el proceso de dividir el contenido en varias páginas para facilitar la navegación y mejorar la experiencia del usuario.
+- Rosco de carga (Spinner): Es un elemento gráfico que indica al usuario que una acción está en proceso y que debe esperar.
+- Ventana emergente (Popup) o popover (Popover): Es una ventana que aparece en la pantalla sin haber sido solicitada por el usuario, normalmente con el fin de mostrar publicidad o información adicional.
 
 ### 2.5. Evolución de las interfaces web
 
@@ -284,8 +284,8 @@ A mediados de la década de 2010 se empezaron a utilizar CSS3 y HTML5, que mejor
 
 En la actualidad, HTML5 y CSS3 las tecnologías más utilizadas. Además, destacan las siguientes tendencias:
 
-- **Diseño para todas las pantallas**: En las etapas anteriores las páginas web se diseñaban para ser vistas en un ordenador con una resolución mínima de pantalla, sin preocuparse demasiado del resto de dispositivos. Con el auge de los smartphones esta tendencia ha cambiado y las webs actualmente se diseñan para que se adapten a las dimensiones y disposición de la pantalla y al tipo de dispositivo, ya sea teniendo diseños separados (adaptivo) o un sólo diseño cuyos elementos cambian de tamaño, de posición o incluso se muestran y ocultan según (responsive y mobile-first).
-- **Temas oscuros**: traidicionalmente el fondo de las páginas web era de un color blanco o similar, con textos en color oscuro y colores en general intensos. Esta corriente consiste en ofrecer un diseño alternativo con colores oscuros y textos claros, con el fin de ofrecer una experiencia más cómoda para la vista cuando hay poca luz (por ejemplo de noche) y ahorrar energía, ya que con estas combinaciones de colores no se necesita tanto brillo.
-- **Páginas "One Page"**: son sitios web que muestran todo su contenido en una única página, haciendo uso del scroll para navegar entre las secciones.
-- **Scroll infinito**: técnica que consiste en, cuando se está llegando al final de una página web, cargar y añadir de forma dinámica más contenido.
-- **Progressive Web Apps**: son aplicaciones cuya interfaz parece nativa del dispositivo en que se usan, pero que en realidad son aplicaciones web. Soportan notificaciones push, trabajar sin conexión y tienen acceso al hardware (cámara, vibración...) del dispositivo.
+- Diseño para todas las pantallas: En las etapas anteriores las páginas web se diseñaban para ser vistas en un ordenador con una resolución mínima de pantalla, sin preocuparse demasiado del resto de dispositivos. Con el auge de los smartphones esta tendencia ha cambiado y las webs actualmente se diseñan para que se adapten a las dimensiones y disposición de la pantalla y al tipo de dispositivo, ya sea teniendo diseños separados (adaptivo) o un sólo diseño cuyos elementos cambian de tamaño, de posición o incluso se muestran y ocultan según (responsive y mobile-first).
+- Temas oscuros: traidicionalmente el fondo de las páginas web era de un color blanco o similar, con textos en color oscuro y colores en general intensos. Esta corriente consiste en ofrecer un diseño alternativo con colores oscuros y textos claros, con el fin de ofrecer una experiencia más cómoda para la vista cuando hay poca luz (por ejemplo de noche) y ahorrar energía, ya que con estas combinaciones de colores no se necesita tanto brillo.
+- Páginas "One Page": son sitios web que muestran todo su contenido en una única página, haciendo uso del scroll para navegar entre las secciones.
+- Scroll infinito: técnica que consiste en, cuando se está llegando al final de una página web, cargar y añadir de forma dinámica más contenido.
+- Progressive Web Apps: son aplicaciones cuya interfaz parece nativa del dispositivo en que se usan, pero que en realidad son aplicaciones web. Soportan notificaciones push, trabajar sin conexión y tienen acceso al hardware (cámara, vibración...) del dispositivo.
