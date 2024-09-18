@@ -52,7 +52,7 @@ de diseño
 - **RA3**: Prepara archivos multimedia para la web, analizando sus características y
 manejando herramientas específicas.
 
---
+------
 
 - **RA4**: Integra contenido multimedia en documentos web valorando su aportación y
 seleccionando adecuadamente los elementos interactivos.
