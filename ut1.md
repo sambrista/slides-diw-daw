@@ -188,54 +188,59 @@ Busca en webs ejemplos de aplicación de las leyes Gestalt
 - <!-- .element: class="fragment" -->Educativa: es sencillo aprender a utilizarla.
 - <!-- .element: class="fragment" -->Actualizada: cambia su contenido con frecuencia y mantiene moderna su interfaz.
 
-<!--
+------
+
 ### 2.4. Componentes
 
-A la hora de leer, solemos hacerlo de izquierda a derecha y de arriba a abajo. Por ello, el punto de partida suele ser la esquina superior izquierda y, en base a esto, una página web se suele dividir en las siguientes secciones:
+------
 
-#### Header (cabecera)
+- Sentido de la lectura
+- <!-- .element: class="fragment" -->División
+  - <!-- .element: class="fragment" -->Header (cabecera)
+  - <!-- .element: class="fragment" -->Cuerpo de la página
+  - <!-- .element: class="fragment" -->Sidebar o barra lateral
+  - <!-- .element: class="fragment" -->Navbar o barra de navegación
 
-Ocupa la parte superior de la página y suele contener el nombre y logo de la página web. Suele también incluir barras de búsqueda, información sobre el usuario que ha iniciado la sesión y, en el caso de los eCommerce, un enlace al carrito de compra.
-
-#### Cuerpo de la página
-
-Ocupa prácticamente el resto de la página y su cometido es mostrar los contenidos de la página en cuestión.
-
-#### Sidebar o barra lateral
-
-Barra que se suele posicionar a izquierda o derecha del cuerpo de la web, aunque hay veces que va incluida en este. Suele contener enlaces a otras páginas o secciones, información adicional de los contenidos, anuncios o widgets como por ejemplo encuestas o nubes de etiquetas.
-
-#### Navbar o barra de navegación
-
-Barra que contiene el menú con los enlaces a las secciones de las que se compone la web. Suele encontrarse entre la cabecera y el cuerpo, aunque también se puede encontrar en el lateral o, en el caso de diseños para móviles, comprimida en un botón de hamburguesa situado en la cabecera. Las secciones se pueden mostrar de forma jerárquica o lineal, y es fundamental que esté bien diseñado para que los usuarios puedan encontrar los contenidos que buscan.
+-----
 
 #### Otros elementos
 
-Dentro de estas secciones, además de texto, existen otros elementos que se utilizan con frecuencia:
+-----
 
-- Acordeón (Accordion): Elemento que expande (y muestra) o contrae (y oculta) secciones con contenido.
-- Banner, Ad o Advertisement: imagen (o animación) publicitaria.
-- Tooltip: pequeña caja de texto con información adicional que aparece al colocar el cursor sobre un elemento.
-- Barra de Acciones (Action Bar): barra con enlaces o botones para realizar acciones relacionadas.
-- Barra de Búsqueda (Search Bar): barra que permite al usuario escribir términos para realizar una búsqueda en la web.
-- Barra de Progreso (Progress Bar): barra que muestra gráficamente el progreso de una acción.
-- Carrusel (Carousel) o slider: elemento que muestra imágenes de forma secuencial.
-- Cuadros de diálogo (Dialog boxes): Son ventanas que se abren en pantalla para comunicar algo al usuario o para pedirle que elija una opción o que introduzca algún dato. Por ejemplo, cuando quieres guardar un archivo , se abre un cuadro de diálogo que permite indicar el nombre y la ubicación del archivo.
-- Deslizador (Slider): Un deslizador o slider es un elemento que permite a los usuarios ajustar un valor desplazando un control deslizante a lo largo de una barra.
-- Imagen destacada o imagen de portada: Imagen de gran tamaño que suele aparecer al inicio de un sitio web y que sirve para destacar el mensaje, los productos o la esencia de una compañía.
-- Llamada a la acción (Call to action): Es un botón o enlace situado en un sitio web que busca atraer clientes potenciales y convertirlos en clientes finales, normalmente a través de un formulario en una página de destino o landing page.
-- Menú desplegable (Drop-down menu): Es un elemento de la interfaz gráfica de usuario que permite al usuario seleccionar una opción de una lista de opciones.
-- Menú hamburguesa (Hamburger menu) o toggle (Toggle): Es un icono que se utiliza para representar un menú en dispositivos móviles. Cuando se hace clic en él, se despliega un menú con opciones.
-- Migas de pan (Breadcrumbs): Son una serie de enlaces que muestran la ruta que ha seguido el usuario para llegar a una página en particular dentro de un sitio web.
-- Notificaciones (Notifications): Son mensajes que informan al usuario sobre eventos importantes dentro de una aplicación.
-- Paginado (Pagination): Es el proceso de dividir el contenido en varias páginas para facilitar la navegación y mejorar la experiencia del usuario.
-- Rosco de carga (Spinner): Es un elemento gráfico que indica al usuario que una acción está en proceso y que debe esperar.
-- Ventana emergente (Popup) o popover (Popover): Es una ventana que aparece en la pantalla sin haber sido solicitada por el usuario, normalmente con el fin de mostrar publicidad o información adicional.
+- Acordeón (Accordion)
+- <!-- .element: class="fragment" -->Banner, Ad o Advertisement
+- <!-- .element: class="fragment" -->Tooltip
+- <!-- .element: class="fragment" -->Barra de Acciones (Action Bar)
+- <!-- .element: class="fragment" -->Barra de Búsqueda (Search Bar)
+- <!-- .element: class="fragment" -->Barra de Progreso (Progress Bar)
+
+------
+
+- Carrusel (Carousel) o slider
+- <!-- .element: class="fragment" -->Cuadros de diálogo (Dialog boxes)
+- <!-- .element: class="fragment" -->Deslizador (Slider)
+- <!-- .element: class="fragment" -->Imagen destacada o imagen de portada
+- <!-- .element: class="fragment" -->Llamada a la acción (Call to action)
+- <!-- .element: class="fragment" -->Menú desplegable (Drop-down menu)
+
+------
+
+- Menú hamburguesa (Hamburger menu) o toggle (Toggle)
+- <!-- .element: class="fragment" -->Migas de pan (Breadcrumbs)
+- <!-- .element: class="fragment" -->Notificaciones (Notifications)
+- <!-- .element: class="fragment" -->Paginado (Pagination)
+- <!-- .element: class="fragment" -->Rosco de carga (Spinner)
+- <!-- .element: class="fragment" -->Ventana emergente (Popup) o popover (Popover)
+
+------
 
 ### 2.5. Evolución de las interfaces web
 
+------
+
 #### 1990 - 2005 (aprox)
 
+<!--
 En 1990, Tim Berners-Lee creó la primera página web usando el lenguaje HTML. En esta época las páginas web son simples e inicialmente su diseño es pobre, limitándose a textos con fondos en blanco y alguna imagen decorativa.
 
 Sin embargo, dado que HTML permitía especificar mediante atributos colores de fuentes, de fondos, de líneas... el diseño web fue progresando utilizando imágenes para construir diseños y tablas para maquetar. También se utilizaban marcos para separar cabeceras, barras laterales y áreas de contenido, de modo que cada marco contenía su propia página HTML y, por ejemplo, los enlaces del menú que se encontraba en el marco de la barra lateral cambiaban la página que se cargaba en el marco del área de contenido.
