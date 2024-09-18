@@ -1,6 +1,6 @@
 # Presentación
 
-## Desarrollo de Interfaces Web
+## Diseño de Interfaces Web
 
 IES Francisco de los Ríos
 
@@ -12,7 +12,7 @@ Curso 2024 / 2025
 
 **Nombre**: Alfonso Jiménez
 
-**Correo**: <a href="mailto:pjimenez@iesfranciscodelosrios.es">pjimenez@iesfranciscodelosrios.es</a>
+**Correo**: [pjimenez@iesfranciscodelosrios.es](mailto:pjimenez@iesfranciscodelosrios.es)
 
 ---
 
