@@ -140,11 +140,6 @@ En una bandera pirata los símbolos utilizados... ¿qué representan? ¿Qué sig
 
 # Práctica 1.1
 
-Busca en webs tres ejemplos de aplicación de las leyes Gestalt (pueden ser la misma web). Crea un documento PDF en el que, para cada ley que hayas encontrado, debe aparecer:
-- La URL
-- Una captura de pantalla de la web en la que se señalen los elementos afectados.
-- Una explicación de qué ley se aplica y cómo.
-
 ---
 
 ## 2. Interfaces web
@@ -205,7 +200,6 @@ Busca en webs tres ejemplos de aplicación de las leyes Gestalt (pueden ser la m
   - <!-- .element: class="fragment" -->Navbar o barra de navegación
 
 -----
-
 
 ### 2.5. Evolución de las interfaces web
 
@@ -284,3 +278,106 @@ Busca en webs tres ejemplos de aplicación de las leyes Gestalt (pueden ser la m
 - <!-- .element: class="fragment" -->Páginas "One Page"
 - <!-- .element: class="fragment" -->Scroll infinito
 - <!-- .element: class="fragment" -->Progressive Web Apps
+
+---
+
+## 3. Aspectos de un diseño web
+
+------
+
+### 3.1. Colores
+
+------
+
+- Sensación producida por los rayos luminosos que impresionan los órganos visuales y que depende de la longitud de onda.
+- <!-- .element: class="fragment" -->Orden de menor a mayor longitud de onda: violeta, azul, verde, amarillo, naranja y rojo.
+- <!-- .element: class="fragment" -->Tres colores
+
+------
+
+- Tonalidad: color
+- <!-- .element: class="fragment" -->Saturación: intensidad
+- <!-- .element: class="fragment" -->Brillo: claridad u oscuridad
+
+------
+
+#### Rueda de color
+
+------
+
+- Colores primarios, secundarios y terciarios.
+- <!-- .element: class="fragment" -->Colores análogos: ambientes calmados.
+- <!-- .element: class="fragment" -->Colores complementarios: destacar elementos.
+- <!-- .element: class="fragment" -->Colores complementarios divididos: combinaciones atractivas y equilibradas
+
+------
+
+- Triadas: impactante
+- <!-- .element: class="fragment" -->Tetraedros: se recomienda usar un color como dominante y el resto como auxiliares.
+- <!-- .element: class="fragment" -->Colores Monocromáticos: variaciones de saturación y brillo de un sólo color.
+
+------
+
+# Para saber más
+
+El magenta no existe.
+
+------
+
+Tonos neutros. Legibilidad.
+
+------
+
+#### Significado
+
+- Negro: elegancia, sobriedad, sofisticación, seriedad, poder y en algunas culturas la muerte.
+- <!-- .element: class="fragment" -->Blanco: pureza, inocencia, limpieza, paz, virtud, bondad, perfección... y en otras culturas orientales y africanas representa la muerte.
+- <!-- .element: class="fragment" -->Amarillo: felicidad, optimismo, energía, vitalidad...
+
+------
+
+- Dorado: riqueza, poder, abundancia, fuerza...
+- <!-- .element: class="fragment" -->Rojo: estimulación, pasión, fuerza, revolución, energía, peligro, vitalidad, agresividad y sensaciones extremas.
+- <!-- .element: class="fragment" -->Naranja: amistad, calidez, confianza, optimismo y éxito.
+
+------
+
+- Azul: tranquilidad, frescura, inteligencia, confianza, calma, pureza y salud. Corporativo.
+- <!-- .element: class="fragment" -->Rosa: feminidad, infancia, inocencia, alegría, dulzura, sensibilidad...
+- <!-- .element: class="fragment" -->Verde: juventud, esperanza, frescura, y naturaleza. 
+
+------
+
+- Morado: lujo, elegancia, misterio, vanidad, feminidad y espiritualidad.
+- <!-- .element: class="fragment" -->Gris: fiabilidad, solidez, equilibrio y templanza.
+
+------
+
+# Para saber más
+
+El púrpura es el color de la realeza.
+
+------
+
+#### Sistema RGB
+
+------
+
+- Tres colores:
+  - <!-- .element: class="fragment" -->YMCK para impresión
+  - <!-- .element: class="fragment" -->RGB para pantallas electrónicas
+- <!-- .element: class="fragment" -->256 valores para cada color.
+- <!-- .element: class="fragment" -->Notación hexadecimal.
+
+------
+
+<!-- .slide: data-background-color="#dddd00" -->
+
+# ¡Cuidado!
+
+No todas las pantallas representan el color de la misma manera.
+[Ejemplo](https://www.youtube.com/watch?v=RfO3La9CmWQ)
+
+------
+
+# Práctica 1.2.
