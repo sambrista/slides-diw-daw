@@ -49,13 +49,15 @@ de diseño
 
 - **RA2**: Crea interfaces web homogéneos definiendo y aplicando estilos.
 
+------
+
 - **RA3**: Prepara archivos multimedia para la web, analizando sus características y
 manejando herramientas específicas.
 
-------
-
 - **RA4**: Integra contenido multimedia en documentos web valorando su aportación y
 seleccionando adecuadamente los elementos interactivos.
+
+------
 
 - **RA5**: Desarrolla interfaces web accesibles, analizando las pautas establecidas
 yaplicando técnicas de verificación.
