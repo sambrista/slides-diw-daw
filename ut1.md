@@ -199,7 +199,7 @@ En una bandera pirata los símbolos utilizados... ¿qué representan? ¿Qué sig
   - <!-- .element: class="fragment" -->Sidebar o barra lateral
   - <!-- .element: class="fragment" -->Navbar o barra de navegación
 
------
+------
 
 ### 2.5. Evolución de las interfaces web
 
