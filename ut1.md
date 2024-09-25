@@ -332,7 +332,7 @@ Tonos neutros. Legibilidad.
 
 - Negro: elegancia, sobriedad, sofisticación, seriedad, poder y en algunas culturas la muerte.
 - <!-- .element: class="fragment" -->Blanco: pureza, inocencia, limpieza, paz, virtud, bondad, perfección... y en otras culturas orientales y africanas representa la muerte.
-- <!-- .element: class="fragment" -->Amarillo: felicidad, optimismo, energía, vitalidad...
+- <!-- .element: class="fragment" -->Amarillo: felicidad, optimismo, energía, vitalidad... y también advertencia.
 
 ------
 
@@ -344,7 +344,7 @@ Tonos neutros. Legibilidad.
 
 - Azul: tranquilidad, frescura, inteligencia, confianza, calma, pureza y salud. Corporativo.
 - <!-- .element: class="fragment" -->Rosa: feminidad, infancia, inocencia, alegría, dulzura, sensibilidad...
-- <!-- .element: class="fragment" -->Verde: juventud, esperanza, frescura, y naturaleza. 
+- <!-- .element: class="fragment" -->Verde: juventud, esperanza, frescura, naturaleza... y también que algo está correcto.
 
 ------
 
@@ -394,6 +394,7 @@ No todas las pantallas representan el color de la misma manera.
 
 - Serif. Estilo clásico y tradicional. Textos impresos. Ejemplos: Times New Roman o Garamond
 - <!-- .element: class="fragment" -->Sans serif: Limpias y modernas. Pantallas. Ejemplos: Arial, Helvética o Comic Sans.
+- <!-- .element: class="fragment" -->Monospace: ancho fijo. Ideales para código y líneas de comando. Ejemplos: Courier, Roboto Mono, Lucida Console.
 - <!-- .element: class="fragment" -->Itálica, manuscrita o script: Imitan el trazo hecho a mano. Llamar la atención y logotipos.
 - <!-- .element: class="fragment" -->Display o ilustración: Estilo libre, muy llamativas. Logos y carteles, textos no.
 
@@ -411,7 +412,7 @@ Las primeras fuentes Serif son romanas
 
 # Para saber más
 
-[Comic Sans en la Copa del Rey]((https://www.lavanguardia.com/deportes/20110325/54131789785/la-copa-del-rey-grabada-en-comic-sans.html))
+[Comic Sans en la Copa del Rey](https://www.lavanguardia.com/deportes/20110325/54131789785/la-copa-del-rey-grabada-en-comic-sans.html)
 
 ------
 
@@ -438,7 +439,7 @@ Las primeras fuentes Serif son romanas
 - El usuario puede no disponer de la fuente deseada. Familias.
 - <!-- .element: class="fragment" -->Hay que proporcionar las fuentes
   - <!-- .element: class="fragment" -->Proporcionar el archivo directamente
-  - <!-- .element: class="fragment" -->Usar un proveedor de fuentes. [Google Fonts](https://fonts.google.com).
+  - <!-- .element: class="fragment" -->Usar un proveedor de fuentes. Google Fonts.
 
 ------
 
@@ -475,7 +476,7 @@ Las primeras fuentes Serif son romanas
 
 ------
 
-- Los **iconos** son imágenes pequeñas que se emplean para identificar elementos, describir funciones, servir de enlace o acompañar palabras como refuerzo visual.
+- Los iconos son imágenes pequeñas que se emplean para identificar elementos, describir funciones, servir de enlace o acompañar palabras como refuerzo visual.
 
 - <!-- .element: class="fragment" -->Se dice que un buen icono debe contener la menor cantidad posible de detalle sin perder significado. Un icono con mucho detalle probablemente no se visualice correctamente con un tamaño reducido, y, si un usuario no es capaz de percibir su significado al verlo, este no habrá cumplido su función.
 
@@ -515,40 +516,111 @@ Beneficios de usar iconos correctamente:
 
 - Atraen la mirada del visitante y decoran.
 - <!-- .element: class="fragment" -->Calidad, ligereza y coherencia.
-<!--
+
+------
+
 #### Tipos de imagen
 
-A la hora de representar una imagen, distinguimos principalmente entre dos tipos:
+------
 
-- Mapa de bits: es el tipo de imágen tradicional. El archivo contiene los píxeles que forman la imagen, recogiendo de cada uno su color, transparencia...
-- Vectorial: este tipo de archivo consiste en un archivo xml que usa vectores para representar formas, textos, gradientes... . La cualidad principal de este tipo de archivo es que son escalables, pudiendo ser representados en cualquier tamaño sin perder calidad.
+- Mapa de bits: Píxeles.
+- Vectorial: XML. Vectores.
 
-!!!warning ¡Cuidado!
-    Cuando las imagen representada tiene un tamaño pequeño la versión escalable probablemente no dé buen resultado. Para estos casos se recomienda usar mapas de bits.
+------
+
+<!-- .slide: data-background-color="#dddd00" -->
+
+# ¡Cuidado!
+
+Vectorial VS Mapa de bits en imágenes pequeñas
+
+------
 
 #### Formatos de imagen
 
-Dada la naturaleza de las imágenes vectoriales, en este apartado nos centraremos en los mapas de bits.
+------
 
-A la hora de utilizar un archivo de imagen debemos prestar atención a su formato, ya que cada tiene unas características concretas:
+- Compresión
+- <!-- .element: class="fragment" -->Transparencia
+- <!-- .element: class="fragment" -->Animación
+- <!-- .element: class="fragment" -->Tamaño de imagen
+- <!-- .element: class="fragment" -->Calidad de imagen
 
-- Compresión: Si realiza compresión reduce el tamaño del fichero, a costa de reducir la calidad. En imágenes grandes no se percibe. Cada vez que guardemos el fichero pierde calidad.
-- Transparencia: Soporte de fondo transparente.
-- Animación: Soporte de animaciones.
-- Tamaño de imagen: cantidad de espacio que necesita dependiendo del tipo de imágen.
-- Calidad de imagen: nivel de detalle, color y nitidez.
+------
 
-Los formatos más comunes son:
+- JPG
+- <!-- .element: class="fragment" -->PNG
+- <!-- .element: class="fragment" -->GIF
+- <!-- .element: class="fragment" -->WebP
 
-- JPEG: Cuando apareció fue toda una revolución por la reducción de tamaño que conseguía gracias a su compresión. Es muy recomendable para fotografías e imágenes complejas (gran variedad de colores), pero presenta poca calidad en imágenes pequeñas o con pocos colores. No soporta animaciones ni transparencia.
-- PNG: No usa compresión y soporta transparencia, pero no animación. Usado principalmente para imágenes simples, ya que para las fotografías e imágenes completas, aunque su calidad es alta, necesita mucho espacio. Se recomienda para iconos, imágenes que necesiten transparencia, imágenes con pocos colores...
-- GIF: No tiene compresión, soporta transparencias y animaciones, pero sólo permite 256 colores, de modo que no se recomienda en imágenes complejas por razones de calidad. Se recomienda su uso únicamente para animaciones, ya que para iconos, imágenes que necesiten transparencia, imágenes con pocos colores... se recomienda usar en su lugar PNG, que soporta más colores y su tamaño es menor.
-- WebP: Formato novedoso desarrollado por Google en 2010. Puede usar o no usar compresión, dependiendo del tipo de imagen, y soporta transparencias y animaciones. Se recomienda su uso por delante del resto de formatos en cualquier tipo de imagen, ya que obtiene igual o mejor resultado que estos necesitando menos tamaño de archivo. Por contra, se necesitan editores especiales o plugins para crear o editar este tipo de imágen, y es posible que algunas aplicaciones o dispositivos aún no lo soporten.
+------
 
 #### Inclusión en el diseño
 
-A la hora de incluir las imágenes en el diseño, es importante considerar los siguientes aspectos:
+------
 
-- Calidad: la imagen debe verse con una calidad apropiada. En algunos diseños pobres podemos encontrar imágenes pixeladas o deformadas, lo cual da muy mala impresión y, en caso de que contenga texto, afecta a la legibilidad.
-- Coherencia de tamaño: se debe procurar que, si las imágenes representan elementos al mismo nivel (artículos de una tienda, portadas de discos, fotografías de noticias...) estas tengan tamaños similares. Usar tamaños dispares descuadra el diseño y da sensación de desorden.
-- Coherencia de bordes: Según el estilo, los bordes pueden ser esquinados o redondeados. Se recomienda mantener la coherencia con el resto de imágnees y con el estilo del resto de elementos de la página web.
+Es importante considerar:
+
+- Calidad
+- <!-- .element: class="fragment" -->Coherencia de tamaño
+- <!-- .element: class="fragment" -->Coherencia de bordes
+
+---
+
+## 4. Planificación de interfaces web
+
+------
+
+### 4.1. Maquetación web
+
+------
+
+- Decidir qué elementos componen la web y qué posición ocupan.
+- <!-- .element: class="fragment" -->Consistencia
+  - <!-- .element: class="fragment" -->Landing Page o página de aterrizaje
+  - <!-- .element: class="fragment" -->Página de error
+  - <!-- .element: class="fragment" -->Página de login
+  - <!-- .element: class="fragment" -->Portada
+
+------
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Para saber más
+
+Conversión
+
+------
+
+
+# Práctica 1.3.
+
+------
+
+### 4.2. Mapas de navegación y Sitemaps
+
+------
+
+- Mapa de navegación: arquitectura de un sitio web. Representación de forma gráfica o textual.
+- <!-- .element: class="fragment" -->Sitemap: listado XML de todas las web de una página.
+
+------
+
+### 4.3. Guías de estilo
+
+------
+
+- Documento o conjunto de pautas que establece los estándares visuales, funcionales y de interacción de un sitio web o aplicación.
+- <!-- .element: class="fragment" -->Consistencia: apariencia y comportamiento unificados.
+
+------
+
+- Tipografía: fuentes, estilos de encabezados, espaciado y alineación del texto...
+- <!-- .element: class="fragment" -->Paleta de colores: colores principales del diseño, uso de los colores...
+- <!-- .element: class="fragment" -->Logotipos e Identidad visual: variantes del logo y dónde usarlas, dimensiones, restricciones...
+- <!-- .element: class="fragment" -->Iconografía: iconos, estilo, tamaños, colores...
+- <!-- .element: class="fragment" -->mágenes y Multimedia: tamaño y resolución, estilos, uso de vídeo y audio...
+
+------
+
+# Práctica 1.4.
