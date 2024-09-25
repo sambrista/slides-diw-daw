@@ -381,3 +381,172 @@ No todas las pantallas representan el color de la misma manera.
 ------
 
 # Práctica 1.2.
+
+------
+
+### 3.2. Tipografías
+
+------
+
+#### Tipos de fuentes
+
+------
+
+- Serif. Estilo clásico y tradicional. Textos impresos. Ejemplos: Times New Roman o Garamond
+- <!-- .element: class="fragment" -->Sans serif: Limpias y modernas. Pantallas. Ejemplos: Arial, Helvética o Comic Sans.
+- <!-- .element: class="fragment" -->Itálica, manuscrita o script: Imitan el trazo hecho a mano. Llamar la atención y logotipos.
+- <!-- .element: class="fragment" -->Display o ilustración: Estilo libre, muy llamativas. Logos y carteles, textos no.
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Para saber más
+
+Las primeras fuentes Serif son romanas
+
+------
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Para saber más
+
+[Comic Sans en la Copa del Rey]((https://www.lavanguardia.com/deportes/20110325/54131789785/la-copa-del-rey-grabada-en-comic-sans.html))
+
+------
+
+#### Alteraciones de la fuente
+
+- Negrita: destacar palabras, frases o textos frente al resto.
+- <!-- .element: class="fragment" -->Cursiva: añadir palabras en otros idiomas, citas textuales, diferenciar palabras en la frase...
+- <!-- .element: class="fragment" -->Subrayado: enlaces. Usar subrayado con otro fin puede confundir al visitante.
+- <!-- .element: class="fragment" -->Tachado: indicar que algo no está disponible o que se considera eliminado.
+
+------
+
+#### Tamaño
+
+- <!-- .element: class="fragment" --> El tamaño guía al ojo.
+- <!-- .element: class="fragment" -->Jerarquía de encabezados a través del tamaño.
+
+------
+
+#### Provisión de fuentes en diseños web
+
+------
+
+- El usuario puede no disponer de la fuente deseada. Familias.
+- <!-- .element: class="fragment" -->Hay que proporcionar las fuentes
+  - <!-- .element: class="fragment" -->Proporcionar el archivo directamente
+  - <!-- .element: class="fragment" -->Usar un proveedor de fuentes. [Google Fonts](https://fonts.google.com).
+
+------
+
+### 3.3. Textos
+
+------
+
+#### Estilo de redacción
+
+------
+
+- Usar oraciones cortas y simples.
+- <!-- .element: class="fragment" -->Pirámide invertida.
+- <!-- .element: class="fragment" -->Párrafos según la idea que aportan.
+- <!-- .element: class="fragment" -->Usa la voz activa en tus textos
+- <!-- .element: class="fragment" -->Especifica el sujeto de la oración.
+
+------
+
+#### Presentación
+
+------
+
+- Párrafos no demasiado largos
+- <!-- .element: class="fragment" -->Usar listas cuando sea posible
+- <!-- .element: class="fragment" -->Resalta las palabras importantes
+- <!-- .element: class="fragment" -->Deja espacio entre los párrafos.
+- <!-- .element: class="fragment" -->Procura usar entre 45 y 75 caracteres por línea (entre 40 y 50 si es un texto informativo).
+- <!-- .element: class="fragment" -->Alinea los textos a la izquierda. Web vs texto impreso.
+
+------
+
+### 3.4. Iconos
+
+------
+
+- Los **iconos** son imágenes pequeñas que se emplean para identificar elementos, describir funciones, servir de enlace o acompañar palabras como refuerzo visual.
+
+- <!-- .element: class="fragment" -->Se dice que un buen icono debe contener la menor cantidad posible de detalle sin perder significado. Un icono con mucho detalle probablemente no se visualice correctamente con un tamaño reducido, y, si un usuario no es capaz de percibir su significado al verlo, este no habrá cumplido su función.
+
+------
+
+Beneficios de usar iconos correctamente:
+
+- <!-- .element: class="fragment" -->Hacer la página más usable ya que se perciben más rápido que el texto.
+- <!-- .element: class="fragment" -->Si acompañan a una palabra o texto, sirven de refuerzo.
+- <!-- .element: class="fragment" -->Son decorativos, aunque se recomienda que haya coherencia entre ellos.
+- <!-- .element: class="fragment" -->Son prácticamente independientes del lenguaje, aunque no tanto de la cultura.
+
+------
+
+#### Favicon
+
+------
+
+- El favicon o "icono de favoritos" es un icono especial que representa la página web, y se utiliza en las pestañas y marcadores de los navegadores web, en los resultados de búsqueda de google, en los accesos directos de Android...
+
+- <!-- .element: class="fragment" -->Diferentes usos, diferentes tamaños, diferentes archivos.
+
+------
+
+#### Proveedores de iconos
+
+------
+
+- [FontAwesome](https://fontawesome.com/)
+- [Bootstrap Icons](https://icons.getbootstrap.com)
+
+------
+
+### 3.5. Imágenes
+
+------
+
+- Atraen la mirada del visitante y decoran.
+- <!-- .element: class="fragment" -->Calidad, ligereza y coherencia.
+<!--
+#### Tipos de imagen
+
+A la hora de representar una imagen, distinguimos principalmente entre dos tipos:
+
+- Mapa de bits: es el tipo de imágen tradicional. El archivo contiene los píxeles que forman la imagen, recogiendo de cada uno su color, transparencia...
+- Vectorial: este tipo de archivo consiste en un archivo xml que usa vectores para representar formas, textos, gradientes... . La cualidad principal de este tipo de archivo es que son escalables, pudiendo ser representados en cualquier tamaño sin perder calidad.
+
+!!!warning ¡Cuidado!
+    Cuando las imagen representada tiene un tamaño pequeño la versión escalable probablemente no dé buen resultado. Para estos casos se recomienda usar mapas de bits.
+
+#### Formatos de imagen
+
+Dada la naturaleza de las imágenes vectoriales, en este apartado nos centraremos en los mapas de bits.
+
+A la hora de utilizar un archivo de imagen debemos prestar atención a su formato, ya que cada tiene unas características concretas:
+
+- Compresión: Si realiza compresión reduce el tamaño del fichero, a costa de reducir la calidad. En imágenes grandes no se percibe. Cada vez que guardemos el fichero pierde calidad.
+- Transparencia: Soporte de fondo transparente.
+- Animación: Soporte de animaciones.
+- Tamaño de imagen: cantidad de espacio que necesita dependiendo del tipo de imágen.
+- Calidad de imagen: nivel de detalle, color y nitidez.
+
+Los formatos más comunes son:
+
+- JPEG: Cuando apareció fue toda una revolución por la reducción de tamaño que conseguía gracias a su compresión. Es muy recomendable para fotografías e imágenes complejas (gran variedad de colores), pero presenta poca calidad en imágenes pequeñas o con pocos colores. No soporta animaciones ni transparencia.
+- PNG: No usa compresión y soporta transparencia, pero no animación. Usado principalmente para imágenes simples, ya que para las fotografías e imágenes completas, aunque su calidad es alta, necesita mucho espacio. Se recomienda para iconos, imágenes que necesiten transparencia, imágenes con pocos colores...
+- GIF: No tiene compresión, soporta transparencias y animaciones, pero sólo permite 256 colores, de modo que no se recomienda en imágenes complejas por razones de calidad. Se recomienda su uso únicamente para animaciones, ya que para iconos, imágenes que necesiten transparencia, imágenes con pocos colores... se recomienda usar en su lugar PNG, que soporta más colores y su tamaño es menor.
+- WebP: Formato novedoso desarrollado por Google en 2010. Puede usar o no usar compresión, dependiendo del tipo de imagen, y soporta transparencias y animaciones. Se recomienda su uso por delante del resto de formatos en cualquier tipo de imagen, ya que obtiene igual o mejor resultado que estos necesitando menos tamaño de archivo. Por contra, se necesitan editores especiales o plugins para crear o editar este tipo de imágen, y es posible que algunas aplicaciones o dispositivos aún no lo soporten.
+
+#### Inclusión en el diseño
+
+A la hora de incluir las imágenes en el diseño, es importante considerar los siguientes aspectos:
+
+- Calidad: la imagen debe verse con una calidad apropiada. En algunos diseños pobres podemos encontrar imágenes pixeladas o deformadas, lo cual da muy mala impresión y, en caso de que contenga texto, afecta a la legibilidad.
+- Coherencia de tamaño: se debe procurar que, si las imágenes representan elementos al mismo nivel (artículos de una tienda, portadas de discos, fotografías de noticias...) estas tengan tamaños similares. Usar tamaños dispares descuadra el diseño y da sensación de desorden.
+- Coherencia de bordes: Según el estilo, los bordes pueden ser esquinados o redondeados. Se recomienda mantener la coherencia con el resto de imágnees y con el estilo del resto de elementos de la página web.
