@@ -584,6 +584,10 @@ Es importante considerar:
 
 ------
 
+Wireframe: esqueleto de la estructura.
+
+------
+
 <!-- .slide: data-background-color="#dddddd" -->
 
 # Para saber más
