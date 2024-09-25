@@ -397,6 +397,8 @@ No todas las pantallas representan el color de la misma manera.
 - <!-- .element: class="fragment" -->Itálica, manuscrita o script: Imitan el trazo hecho a mano. Llamar la atención y logotipos.
 - <!-- .element: class="fragment" -->Display o ilustración: Estilo libre, muy llamativas. Logos y carteles, textos no.
 
+------
+
 <!-- .slide: data-background-color="#dddddd" -->
 
 # Para saber más
