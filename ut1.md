@@ -686,7 +686,7 @@ Ejemplos en *twig*
 
 ------
 
-- Complejidad:_Estáticas vs dinámicas.
+- Complejidad: Estáticas vs dinámicas.
 - <!-- .element: class="fragment" -->Multitud de subtareas.
 
 ------
@@ -708,3 +708,7 @@ Ejemplos en *twig*
 <!-- .slide: data-background-color="#dddddd" -->
 
 # Práctica 1.7
+
+---
+
+# UT 1: Planificación de interfaces
