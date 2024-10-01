@@ -380,6 +380,8 @@ No todas las pantallas representan el color de la misma manera.
 
 ------
 
+<!-- .slide: data-background-color="#dddddd" -->
+
 # Práctica 1.2.
 
 ------
@@ -596,6 +598,7 @@ Conversión
 
 ------
 
+<!-- .slide: data-background-color="#dddddd" -->
 
 # Práctica 1.3.
 
@@ -627,4 +630,81 @@ Conversión
 
 ------
 
+<!-- .slide: data-background-color="#dddddd" -->
+
 # Práctica 1.4.
+
+------
+
+### 4.4. Prototipado
+
+------
+
+- Antes de codificar, prototipar.
+- <!-- .element: class="fragment" -->Realista.
+- <!-- .element: class="fragment" -->Confirmación con el cliente.
+
+------
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Práctica 1.5
+
+------
+
+### 4.5. Plantillas
+
+------
+
+- Artefacto con un diseño predefinido con el que sólo debemos introducir el contenido y realizar pequeños ajustes para generar una página web.
+- <!-- .element: class="fragment" -->Rapidez
+- <!-- .element: class="fragment" -->Poco esfuerzo
+- <!-- .element: class="fragment" -->Pocos conocimientos.
+
+------
+
+Tipos:
+
+- Sitio web con textos de relleno.
+- <!-- .element: class="fragment" -->Sitios web creados con CMS
+- <!-- .element: class="fragment" -->Herramientas de generación de webs
+- <!-- .element: class="fragment" -->Motores de plantillas
+
+------
+
+Ejemplos en *twig*
+
+------
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Práctica 1.6.
+
+---
+
+## 5. Aplicaciones para diseño web
+
+------
+
+- Complejidad:_Estáticas vs dinámicas.
+- <!-- .element: class="fragment" -->Multitud de subtareas.
+
+------
+
+- Editores de Código
+- <!-- .element: class="fragment" -->Constructores Visuales (Web Builders)
+- <!-- .element: class="fragment" -->Herramientas de Prototipado y Diseño UI/UX
+- <!-- .element: class="fragment" -->Edición Gráfica
+
+------
+
+- Sistemas de Gestión de Contenidos (CMS)
+- <!-- .element: class="fragment" -->Versionado y Colaboración
+- <!-- .element: class="fragment" -->Herramientas de Testing y Debugging
+- <!-- .element: class="fragment" -->Optimizadores y Compresores de Imágenes
+
+------
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Práctica 1.7
