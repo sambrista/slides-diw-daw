@@ -27,6 +27,30 @@ Resultado de Aprendizaje 2 (RA 2): Crea interfaces Web homogéneos definiendo y 
 
 ## 1. CSS
 
+------
+
+Cache
+
+------
+
+### 1.1. Selectores avanzados
+
+------
+
+### 1.2. Media Queries
+
+------
+
+### 1.3. Flexbox Layout
+
+------
+
+### 1.4. Grid Layout
+
+------
+
+### 1.5. Animaciones
+
 ---
 
 # UT 2: Desarrollo de estilos web
