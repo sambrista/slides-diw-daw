@@ -66,7 +66,26 @@ Conjunto de derechos que protegen:
 
 ------
 
-### 1.2. Licencias: permisos para usar creaciones
+### 1.2. LPI en España y derechos de autor
+
+------
+
+#### Aspectos clave
+
+- Duración: Vida del autor + 70 años.
+- <!-- .element: class="fragment" -->Protección: Diseños, escritos, software, etc.
+- <!-- .element: class="fragment" -->Infracciones: sanciones legales.
+- <!-- .element: class="fragment" -->Derechos de autor:
+  - <!-- .element: class="fragment" -->Morales: Reconocimiento y control.
+  - <!-- .element: class="fragment" -->Patrimoniales: Explotación económica.
+
+------
+
+**Copyright** vs **Copyleft**
+
+------
+
+### 1.3. Licencias: permisos para usar creaciones
 
 ------
 
@@ -78,9 +97,9 @@ Un acuerdo legal que define cómo usar una obra. Tipos comunes:
 - <!-- .element: class="fragment" -->Comerciales: Requieren pago.
 - <!-- .element: class="fragment" -->Propietarias: Restringen uso y distribución.
 
----
+------
 
-#### Ejemplos de licencias libres (1/2)
+##### Ejemplos de licencias libres (1/2)
 
 - Creative Commons (CC):
   - <!-- .element: class="fragment" -->CC BY: Uso con atribución.
@@ -91,71 +110,79 @@ Un acuerdo legal que define cómo usar una obra. Tipos comunes:
 
 ------
 
-#### Ejemplos de licencias libres (2/2)
+##### Ejemplos de licencias libres (2/2)
 
 - <!-- .element: class="fragment" -->GPL: Software libre. Ej: Wordpress.
 - <!-- .element: class="fragment" -->MIT: Licencia simple. Ej: React.js.
 - <!-- .element: class="fragment" -->Apache 2.0: Protección frente a demandas de patentes.
 - <!-- .element: class="fragment" -->OFL: Fuentes tipográficas. Ej: Google Fonts.
 
----
+------
 
-## Consecuencias de infringir licencias
+#### Infracción de licencias
 
-### Legales
-- Demandas civiles: multas e indemnizaciones.
-- Sanciones penales: cárcel en casos graves.
-- Bloqueo de contenido.
+##### Infracciones comunes
 
-### Económicas
-- Costos legales y multas.
-- Pérdida de ingresos y clientes.
+- <!-- .element: class="fragment" -->Usar imágenes, iconos o gráficos de internet sin verificar su licencia.
+- <!-- .element: class="fragment" -->Copiar fragmentos de código o interfaces completas sin permiso del autor.
+- <!-- .element: class="fragment" -->Descargar y reutilizar música o videos protegidos en proyectos sin licencia adecuada.
 
-### Éticas y profesionales
-- Daño a la reputación.
-- Pérdida de credibilidad.
+------
 
----
+##### Consecuencias legales
 
-## Ley de Propiedad Intelectual (España)
+- <!-- .element: class="fragment" -->Demandas civiles: multas e indemnizaciones.
+- <!-- .element: class="fragment" -->Sanciones penales: cárcel en casos graves.
+- <!-- .element: class="fragment" -->Bloqueo de contenido.
 
-### Aspectos clave
-- **Duración**: Vida del autor + 70 años.
-- **Protección**: Diseños, escritos, software, etc.
-- **Derechos**:
-  - **Morales**: Reconocimiento y control.
-  - **Patrimoniales**: Explotación económica.
+##### Çonsecuencias económicas
 
----
+- <!-- .element: class="fragment" -->Costos legales y multas.
+- <!-- .element: class="fragment" -->Pérdida de ingresos y clientes.
 
-## Recursos libres o gratuitos
+##### Consecuencias Éticas y profesionales
 
-### Bancos de imágenes
+- <!-- .element: class="fragment" -->Daño a la reputación.
+- <!-- .element: class="fragment" -->Pérdida de credibilidad.
+
+------
+
+#### Buenas prácticas
+
+1. <!-- .element: class="fragment" -->Revisar licencias antes de usar contenido.
+2. <!-- .element: class="fragment" -->Usar recursos libres o propios.
+3. <!-- .element: class="fragment" -->Atribuir correctamente si la licencia lo requiere.
+4. <!-- .element: class="fragment" -->Solicitar permisos en caso de dudas.
+
+------
+
+### 1.4. Recursos libres o gratuitos
+
+------
+
+#### Bancos de imágenes
 - **[Unsplash](https://unsplash.com)**: Fotos libres de derechos.
 - **[Pexels](https://pexels.com)**: Fotos y videos gratis.
 - **[Pixabay](https://pixabay.com)**: Imágenes y videos CC0.
 
-### Iconos
+------
+
+#### Iconos
 - **[Flaticon](https://flaticon.com)**: Iconos gratuitos.
 - **[Freepik](https://freepik.com)**: Imágenes y vectores.
 
-### Tipografías
+------
+
+#### Tipografías
 - **[Google Fonts](https://fonts.google.com)**: Fuentes libres.
 - **[Font Squirrel](https://fontsquirrel.com)**: Fuentes gratuitas.
 
-### Videos y música
+------
+
+#### Videos y música
 - **[Videvo](https://videvo.net)**: Clips de video gratis.
 - **[Freesound](https://freesound.org)**: Efectos de sonido.
 - **[YouTube Audio Library](https://studio.youtube.com)**: Música gratuita.
-
----
-
-## Buenas prácticas
-
-1. **Revisar licencias** antes de usar contenido.
-2. **Usar recursos libres o propios.**
-3. **Atribuir correctamente** si la licencia lo requiere.
-4. **Solicitar permisos** en caso de dudas.
 
 <!--
 ---
