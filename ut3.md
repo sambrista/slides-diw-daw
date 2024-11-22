@@ -161,30 +161,30 @@ Un acuerdo legal que define cómo usar una obra. Tipos comunes:
 ------
 
 #### Bancos de imágenes
-- **[Unsplash](https://unsplash.com)**: Fotos libres de derechos.
-- **[Pexels](https://pexels.com)**: Fotos y videos gratis.
-- **[Pixabay](https://pixabay.com)**: Imágenes y videos CC0.
+-[Unsplash](https://unsplash.com): Fotos libres de derechos.
+-[Pexels](https://pexels.com): Fotos y videos gratis.
+-[Pixabay](https://pixabay.com): Imágenes y videos CC0.
 
 ------
 
 #### Iconos
-- **[Flaticon](https://flaticon.com)**: Iconos gratuitos.
-- **[Freepik](https://freepik.com)**: Imágenes y vectores.
+-[Flaticon](https://flaticon.com): Iconos gratuitos.
+-[Freepik](https://freepik.com): Imágenes y vectores.
 
 ------
 
 #### Tipografías
-- **[Google Fonts](https://fonts.google.com)**: Fuentes libres.
-- **[Font Squirrel](https://fontsquirrel.com)**: Fuentes gratuitas.
+-[Google Fonts](https://fonts.google.com): Fuentes libres.
+-[Font Squirrel](https://fontsquirrel.com): Fuentes gratuitas.
 
 ------
 
 #### Videos y música
-- **[Videvo](https://videvo.net)**: Clips de video gratis.
-- **[Freesound](https://freesound.org)**: Efectos de sonido.
-- **[YouTube Audio Library](https://studio.youtube.com)**: Música gratuita.
+-[Videvo](https://videvo.net): Clips de video gratis.
+-[Freesound](https://freesound.org): Efectos de sonido.
+-[YouTube Audio Library](https://studio.youtube.com): Música gratuita.
 
-<!--
+
 ---
 
 ## 2. Multimedia
@@ -193,93 +193,109 @@ Un acuerdo legal que define cómo usar una obra. Tipos comunes:
 
 ### 2.1. Tipos de imagen
 
-- **Mapa de bits**: Imágenes tradicionales basadas en píxeles.
-- **Vectorial**: Basadas en vectores, **escalables** sin pérdida de calidad.
+- Mapa de bits: Imágenes tradicionales basadas en píxeles.
+- <!-- .element: class="fragment" -->Vectorial: Basadas en vectores, **escalables** sin pérdida de calidad.
 
 ------
 
-!!!warning "¡Cuidado!"
-    Las imágenes pequeñas escaladas pueden perder calidad.
+<!-- .slide: data-background-color="#ffff88" -->
+
+## ¡Cuidado!
+
+Las imágenes pequeñas escaladas pueden perder calidad.
 
 ------
 
-### 2.2. Formatos de imagen: Mapas de bits
-
-#### **JPEG** 
-- Compresión: Alta reducción de tamaño, pero pierde calidad.
-- Ideal para fotografías complejas.
-
-#### **PNG** 
-- Transparencia: Soportada.
-- Uso: Iconos, imágenes con pocos colores.
-
-#### **GIF** 
-- Animación: Soportada.
-- Limitación: Solo 256 colores.
-
-#### **WebP**
-- **Recomendado**: Alta calidad y menor tamaño.
-- Limitación: Requiere herramientas específicas.
+#### 2.1.2. Formatos de Imagen
 
 ------
 
-### 2.2. Formatos de imagen: Otros Mapas de bits
-
-- **BMP**: Sin compresión, archivos grandes.
-- **HEIC**: Alta eficiencia, limitado a dispositivos Apple.
-- **ICO**: Usado para iconos en sistemas operativos.
-- **TIFF**: Ideal para impresión y fotografía profesional.
-- **PSD/XCF**: Archivos de edición (Photoshop/GIMP).
+##### Mapas de bits
 
 ------
 
-### 2.3. Formatos vectoriales
+###### Características
 
-#### Principales formatos
-- **SVG**: Estándar web, escalable y soporta animaciones.
-- **AI**: Formato profesional de Adobe Illustrator.
-- **PDF**: Versátil, mezcla vectorial y raster.
-- **EPS**: Usado en impresión, compatible con programas de diseño.
+- Compresión: Reduce tamaño, pero afecta calidad.
+-  <!-- .element: class="fragment" -->Transparencia: Soporta fondo transparente.
+-  <!-- .element: class="fragment" -->Animación: Soporta animaciones.
+-  <!-- .element: class="fragment" -->Tamaño de imagen: Depende del tipo de imagen.
+-  <!-- .element: class="fragment" -->Calidad de imagen: Detalle, color y nitidez.
+-  <!-- .element: class="fragment" -->Indexación: Uso de paleta con colores limitados.
 
 ------
 
-### 2.4. Optimización de imágenes
+###### Mapas de bits: Formatos comunes
 
-- **Reducir tamaño** sin sacrificar calidad.
-- Ajustar resolución a necesidades reales.
-- Usar formatos adecuados (WebP, JPEG...).
-- Simplificar paleta de colores y recortar áreas innecesarias.
+- <!-- .element: class="fragment" -->JPEG: Ideal para fotografías, no soporta animación ni transparencia. Alta compresión, pero pierde calidad en imágenes simples.
+- <!-- .element: class="fragment" -->PNG: No usa compresión, soporta transparencia. Ideal para iconos y gráficos simples. Indexado opcional.
+- <!-- .element: class="fragment" -->GIF: Soporta animaciones y transparencia, pero sólo 256 colores (indexado). No recomendado para imágenes complejas.
+- <!-- .element: class="fragment" -->WebP: Alta calidad, soporte de compresión, transparencia y animación. Requiere editores especiales y no siempre es compatible.
+
+------
+
+###### Otros formatos de imagen
+
+- <!-- .element: class="fragment" -->BMP: Imagen sin compresión, archivos grandes, usado en software antiguo.
+- <!-- .element: class="fragment" -->HEIC: Alta eficiencia, calidad con archivos pequeños, usado en dispositivos Apple.
+- <!-- .element: class="fragment" -->ICO: Para íconos, soporta múltiples resoluciones.
+- <!-- .element: class="fragment" -->TIFF: Alta calidad, archivos grandes, usado en fotografía e impresión profesional.
+- <!-- .element: class="fragment" -->PSD: Formato de Adobe Photoshop, para edición avanzada, no recomendado para la web.
+- <!-- .element: class="fragment" -->XCF: Similar a PSD, usado en GIMP, ideal para edición pero no compatible con todos los programas.
+
+------
+
+##### Imágenes Vectoriales
+
+Características:
+- No tienen problemas de calidad ni compresión.
+- Ocupan poco espacio.
+
+------
+
+###### Formatos Vectoriales
+
+- <!-- .element: class="fragment" -->SVG: Basado en XML, escalable sin pérdida de calidad. Ideal para diseño web.
+- <!-- .element: class="fragment" -->AI: Nativo de Adobe Illustrator, usado para logotipos e ilustraciones profesionales.
+- <!-- .element: class="fragment" -->PDF: Contiene gráficos vectoriales y raster. Ideal para documentos e impresión.
+- <!-- .element: class="fragment" -->EPS: Compatible con programas de diseño, usado en entornos de impresión.
+
+------
+
+## 2.1.3. Optimizaciones para la Web
+
+- <!-- .element: class="fragment" -->Compresión: Usar herramientas para comprimir sin pérdida significativa de calidad.
+- <!-- .element: class="fragment" -->Formato adecuado: Seleccionar el formato más adecuado (JPEG, PNG, WebP).
+- <!-- .element: class="fragment" -->Reducir resolución: Ajustar dimensiones a las necesarias para la pantalla.
+- <!-- .element: class="fragment" -->Simplificar paleta: Reducir número de colores en gráficos.
+- <!-- .element: class="fragment" -->Recorte inteligente: Eliminar partes innecesarias de la imagen.
 
 ------
 
 ### 2.5. Herramientas de edición
 
+------
+
 #### Edición avanzada
-- **Adobe Photoshop**: Líder en el sector, de pago.
-- **GIMP**: Alternativa gratuita y de código abierto.
-- **Adobe Illustrator**: Diseño vectorial profesional.
-- **Inkscape**: Alternativa gratuita a Illustrator.
+
+- <!-- .element: class="fragment" -->Adobe Photoshop: Líder en el sector, de pago.
+- <!-- .element: class="fragment" -->GIMP: Alternativa gratuita y de código abierto.
+- <!-- .element: class="fragment" -->Adobe Illustrator: Diseño vectorial profesional.
+- <!-- .element: class="fragment" -->Inkscape: Alternativa gratuita a Illustrator.
+
+------
 
 #### Edición rápida
-- **Pixlr**: Basado en navegador, gratuito.
-- **Adobe Lightroom**: Ideal para fotógrafos, de pago.
+
+- <!-- .element: class="fragment" -->Pixlr: Basado en navegador, gratuito.
+- <!-- .element: class="fragment" -->Adobe Lightroom: Ideal para fotógrafos, de pago.
 
 ------
 
 ### 2.6. Herramientas de optimización
 
-- **ImageOptim**: Compresión sin pérdida visible (macOS).
-- **TinyPNG**: Compresión online para PNG/JPEG.
-- **Squoosh**: Optimización avanzada y gratuita de Google.
-- **WebP Converter**: Convierte imágenes a WebP.
+- <!-- .element: class="fragment" -->ImageOptim: Compresión sin pérdida visible (macOS).
+- <!-- .element: class="fragment" -->TinyPNG: Compresión online para PNG/JPEG.
+- <!-- .element: class="fragment" -->Squoosh: Optimización avanzada y gratuita de Google.
+- <!-- .element: class="fragment" -->WebP Converter: Convierte imágenes a WebP.
 
-------
-
-### 2.7. Buenas prácticas
-
-1. **Usar formatos adecuados** según el contenido.
-2. **Optimizar antes de publicar** para mejorar tiempos de carga.
-3. **Mantener calidad** ajustada al propósito.
-4. **Aprovechar herramientas gratuitas** para edición y compresión.
-
--->
