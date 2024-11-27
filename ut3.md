@@ -235,14 +235,21 @@ Las imágenes pequeñas escaladas pueden perder calidad.
 
 ###### Mapas de bits: Formatos comunes (2/2)
 
-- <!-- .element: class="fragment" -->WebP: Alta calidad, soporte de compresión, transparencia y animación. Requiere editores especiales y no siempre es compatible.
+- <!-- .element: class="fragment" -->WebP: Alta calidad, soporte de compresión, transparencia y animación. Requiere editores especiales y no siempre es compatible. Codecs VP8 o VP9.
+
+------
+
+###### Otros formatos de imagen en ascenso
+
+- <!-- .element: class="fragment" -->HEIC: Alta eficiencia, calidad con archivos pequeños, usado en dispositivos Apple. Codec HEVC (H.265).
+- <!-- .element: class="fragment" -->AVIF: Alta eficiencia, calidad con archivos pequeños. Soporta transparencias, animación y HDR. Codec AV1.
 
 ------
 
 ###### Otros formatos de imagen (1/2)
 
 - <!-- .element: class="fragment" -->BMP: Imagen sin compresión, archivos grandes, usado en software antiguo.
-- <!-- .element: class="fragment" -->HEIC: Alta eficiencia, calidad con archivos pequeños, usado en dispositivos Apple.
+- <!-- .element: class="fragment" -->JFIF: Versión ampliada de JPG. Incluye información sobre resolución de imagen, ratio de aspecto, espacio de colores...
 - <!-- .element: class="fragment" -->ICO: Para íconos, soporta múltiples resoluciones.
 
 ------
