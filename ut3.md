@@ -225,20 +225,30 @@ Las imágenes pequeñas escaladas pueden perder calidad.
 
 ------
 
-###### Mapas de bits: Formatos comunes
+###### Mapas de bits: Formatos comunes (1/2)
 
 - <!-- .element: class="fragment" -->JPEG: Ideal para fotografías, no soporta animación ni transparencia. Alta compresión, pero pierde calidad en imágenes simples.
 - <!-- .element: class="fragment" -->PNG: No usa compresión, soporta transparencia. Ideal para iconos y gráficos simples. Indexado opcional.
 - <!-- .element: class="fragment" -->GIF: Soporta animaciones y transparencia, pero sólo 256 colores (indexado). No recomendado para imágenes complejas.
+
+------
+
+###### Mapas de bits: Formatos comunes (2/2)
+
 - <!-- .element: class="fragment" -->WebP: Alta calidad, soporte de compresión, transparencia y animación. Requiere editores especiales y no siempre es compatible.
 
 ------
 
-###### Otros formatos de imagen
+###### Otros formatos de imagen (1/2)
 
 - <!-- .element: class="fragment" -->BMP: Imagen sin compresión, archivos grandes, usado en software antiguo.
 - <!-- .element: class="fragment" -->HEIC: Alta eficiencia, calidad con archivos pequeños, usado en dispositivos Apple.
 - <!-- .element: class="fragment" -->ICO: Para íconos, soporta múltiples resoluciones.
+
+------
+
+###### Otros formatos de imagen (2/2)
+
 - <!-- .element: class="fragment" -->TIFF: Alta calidad, archivos grandes, usado en fotografía e impresión profesional.
 - <!-- .element: class="fragment" -->PSD: Formato de Adobe Photoshop, para edición avanzada, no recomendado para la web.
 - <!-- .element: class="fragment" -->XCF: Similar a PSD, usado en GIMP, ideal para edición pero no compatible con todos los programas.
@@ -247,9 +257,12 @@ Las imágenes pequeñas escaladas pueden perder calidad.
 
 ##### Imágenes Vectoriales
 
-Características:
-- No tienen problemas de calidad ni compresión.
-- Ocupan poco espacio.
+------
+
+###### Características
+
+- <!-- .element: class="fragment" -->XNo tienen problemas de calidad ni compresión.
+- <!-- .element: class="fragment" -->XOcupan poco espacio.
 
 ------
 
@@ -262,11 +275,16 @@ Características:
 
 ------
 
-## 2.1.3. Optimizaciones para la Web
+## 2.1.3. Optimizaciones para la Web (1/2)
 
 - <!-- .element: class="fragment" -->Compresión: Usar herramientas para comprimir sin pérdida significativa de calidad.
 - <!-- .element: class="fragment" -->Formato adecuado: Seleccionar el formato más adecuado (JPEG, PNG, WebP).
 - <!-- .element: class="fragment" -->Reducir resolución: Ajustar dimensiones a las necesarias para la pantalla.
+
+------
+
+## 2.1.3. Optimizaciones para la Web (2/2)
+
 - <!-- .element: class="fragment" -->Simplificar paleta: Reducir número de colores en gráficos.
 - <!-- .element: class="fragment" -->Recorte inteligente: Eliminar partes innecesarias de la imagen.
 
