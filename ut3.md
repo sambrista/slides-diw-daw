@@ -194,7 +194,7 @@ Un acuerdo legal que define cómo usar una obra. Tipos comunes:
 ### 2.1. Tipos de imagen
 
 - Mapa de bits: Imágenes tradicionales basadas en píxeles.
-- <!-- .element: class="fragment" -->Vectorial: Basadas en vectores, **escalables** sin pérdida de calidad.
+- <!-- .element: class="fragment" -->Vectorial: Basadas en vectores, escalables sin pérdida de calidad.
 
 ------
 
