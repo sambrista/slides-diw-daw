@@ -275,7 +275,7 @@ En una bandera pirata los símbolos utilizados... ¿qué representan? ¿Qué sig
 - HTML5 y CSS3
 - <!-- .element: class="fragment" -->Diseño para todas las pantallas
 - <!-- .element: class="fragment" -->Temas oscuros
-- <!-- .element: class="fragment" -->Páginas "One Page"
+- <!-- .element: class="fragment" -->Páginas "Single Page Layout"
 - <!-- .element: class="fragment" -->Scroll infinito
 - <!-- .element: class="fragment" -->Progressive Web Apps
 
