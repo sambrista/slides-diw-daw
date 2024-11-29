@@ -191,7 +191,11 @@ Un acuerdo legal que define cómo usar una obra. Tipos comunes:
 
 ------
 
-### 2.1. Tipos de imagen
+### 2.1. Imágenes
+
+------
+
+#### 2.2.1. Tipos de imagen
 
 - Mapa de bits: Imágenes tradicionales basadas en píxeles.
 - <!-- .element: class="fragment" -->Vectorial: Basadas en vectores, escalables sin pérdida de calidad.
@@ -282,7 +286,7 @@ Las imágenes pequeñas escaladas pueden perder calidad.
 
 ------
 
-## 2.1.3. Optimizaciones para la Web (1/2)
+#### 2.1.3. Optimizaciones para la Web (1/2)
 
 - <!-- .element: class="fragment" -->Compresión: Usar herramientas para comprimir sin pérdida significativa de calidad.
 - <!-- .element: class="fragment" -->Formato adecuado: Seleccionar el formato más adecuado (JPEG, PNG, WebP).
@@ -290,18 +294,18 @@ Las imágenes pequeñas escaladas pueden perder calidad.
 
 ------
 
-## 2.1.3. Optimizaciones para la Web (2/2)
+#### 2.1.3. Optimizaciones para la Web (2/2)
 
 - <!-- .element: class="fragment" -->Simplificar paleta: Reducir número de colores en gráficos.
 - <!-- .element: class="fragment" -->Recorte inteligente: Eliminar partes innecesarias de la imagen.
 
 ------
 
-### 2.5. Herramientas de edición
+#### 2.1.4. Aplicaciones
 
 ------
 
-#### Edición avanzada
+##### Edición avanzada
 
 - <!-- .element: class="fragment" -->Adobe Photoshop: Líder en el sector, de pago.
 - <!-- .element: class="fragment" -->GIMP: Alternativa gratuita y de código abierto.
@@ -310,17 +314,143 @@ Las imágenes pequeñas escaladas pueden perder calidad.
 
 ------
 
-#### Edición rápida
+##### Edición rápida
 
 - <!-- .element: class="fragment" -->Pixlr: Basado en navegador, gratuito.
 - <!-- .element: class="fragment" -->Adobe Lightroom: Ideal para fotógrafos, de pago.
 
 ------
 
-### 2.6. Herramientas de optimización
+##### Herramientas de optimización
 
 - <!-- .element: class="fragment" -->ImageOptim: Compresión sin pérdida visible (macOS).
 - <!-- .element: class="fragment" -->TinyPNG: Compresión online para PNG/JPEG.
 - <!-- .element: class="fragment" -->Squoosh: Optimización avanzada y gratuita de Google.
 - <!-- .element: class="fragment" -->WebP Converter: Convierte imágenes a WebP.
 
+------
+
+### 2.2. Audio
+
+------
+
+Un **audio**, según la RAE, es un "archivo de sonido", y define **sonido** como la "sensación producida en el órgano del oído por el movimiento vibratorio de los cuerpos, transmitido por un medio elástico, como el aire."
+
+------
+
+#### Propiedades
+
+- <!-- .element: class="fragment" -->**Frecuencia**: número de vibraciones por segundo (medido en hertzios, Hz). Tono (agudo-grave).
+- <!-- .element: class="fragment" -->**Amplitud**: intensidad de las vibraciones. Volumen. Se mide en decibelios (**dB**).
+- <!-- .element: class="fragment" -->**Velocidad**: Depende del medio; es más rápida en sólidos, más lenta en líquidos y aún más lenta en gases.
+- <!-- .element: class="fragment" -->**Timbre**: cualidad que diferencia sonidos con igual frecuencia y amplitud pero de fuentes distintas.
+
+------
+
+<!-- .slide: data-background-color="#88ccFF" -->
+
+## Para saber más
+
+- Sonidos audibles: (20 Hz - 20 KHz)
+- <!-- .element: class="fragment" -->Infrasonidos: < 20 Hz
+- <!-- .element: class="fragment" -->Ultrasonidos: > 20 KHz
+
+------
+
+#### 2.2.1. Digitalización del sonido (1/2)
+
+El sonido es una señal analógica que se convierte en digital mediante un proceso llamado **muestreo**, **cuantización** y **codificación**:
+
+- <!-- .element: class="fragment" -->**Muestreo**: Captura el valor de la señal analógica en intervalos regulares (frecuencia de muestreo, como 44.1 kHz).
+- <!-- .element: class="fragment" -->**Cuantización**: Asigna valores numéricos a las amplitudes capturadas, normalmente con una profundidad de bits (por ejemplo, 16 bits).
+
+------
+
+#### 2.2.1. Digitalización del sonido (2/2)
+
+- **Codificación**: Usa el resultado del muestreo y la cuantización para generar archivos de audio. Ejemplos:
+
+- <!-- .element: class="fragment" -->**PCM (Pulse Code Modulation)**: Método base para convertir señales analógicas a digitales, transcribiendo a binario la amplitud cuantificada.
+- <!-- .element: class="fragment" -->**Codificación perceptual**: Elimina sonidos que el oído humano no puede percibir.
+- <!-- .element: class="fragment" -->**Codificación delta**: Graba solo los cambios entre muestras sucesivas, ahorrando espacio.
+
+------
+
+#### 2.2.2. Propiedades de un archivo de audio
+
+- **Bitrate** (Tasa de bits): es la cantidad de datos procesados por segundo en un archivo de audio, medida en kilobits por segundo (kbps).
+- **Compresión**: con pérdida o sin pérdida. Tamaño y fidelidad.
+- **Frecuencia de muestreo** (Sample Rate): Muestras de audio por segundo durante la grabación. Hertz (Hz)
+- **Profundidad de bits** (Bit Depth): cantidad de bits utilizados para representar cada muestra de audio.  
+- **Canales de audio**: Mono, estéreo y surround.  
+- **Tamaño del archivo**: espacio que ocupa el archivo.
+- **Formato contenedor**: "envoltura". Datos del audio y subtítulos, metadatos... . Compatibilidad.
+- **Metadatos**: Nombre de la canción, artista, carátula del álbum...  
+
+------
+
+<!-- .slide: data-background-color="#88ccFF" -->
+
+## Para saber más
+
+- Característicias de un archivo de ejemplo.
+- ¿Qué se pierde al comprimir?
+
+------
+
+#### 2.2.3. Formatos de archivo de audio
+
+------
+
+##### Formatos sin compresión
+
+- **WAV** (Waveform Audio File Format): Microsoft e IBM. PCM, sin compresión. Grabaciones profesionales y edición de audio.
+- **AIFF** (Audio Interchange File Format): Similar a WAV. Desarrollado por Apple. Entornos de grabación profesional y sistemas Apple.
+
+------
+
+##### Formatos con compresión sin pérdida
+
+- **FLAC** (Free Lossless Audio Codec): Muy popular. Compresión eficiente sin pérdida de calidad. Formato de código abierto y libre.
+- **ALAC** (Apple Lossless Audio Codec): Desarrollado por Apple, similar a FLAC. También libre.
+
+------
+
+##### Formatos con compresión con pérdida
+
+- **MP3** (MPEG-1 Audio Layer 3): Compresión con pérdida de calidad, tamaño pequeño. Muy popular. Muy compatible. Bitrate ajustable. Libre desde 2017.
+- **AAC** (Advanced Audio Codec): Mejor calidad de sonido que MP3 a bitrates similares. Compatible con dispositivos Apple (iTunes, iPhone) y otros reproductores modernos. Optimizado para streaming y almacenamiento de música digital. Formato propietario. Se suele usar mucho en conjunción con el **contenedor** **M4A** (MPEG-4 Audio).
+- **OGG** (Ogg Vorbis): comparable a MP3 y AAC. Es un formato abierto y libre de patentes. Optimizado para streaming y utilizado en videojuegos, aplicaciones libres o aplicaciones web.
+- **Opus**: Alta calidad y baja latencia, diseñado para aplicaciones web y streaming en vivo. Se usa para comunicación en tiempo real, como en aplicaciones de voz y video, y para música de baja latencia en la web. También es libre.
+
+------
+
+##### Otros formatos
+
+- **WMA** (Windows Media Audio): Formato propietario de Microsoft, disponible en versiones con y sin pérdida. Menos popular que MP3 o AAC, pero optimizado para entornos Windows.
+- **AMR** (Adaptive Multi-Rate): Formato optimizado para la compresión de voz en telecomunicaciones (llamadas y mensajes de voz). Su diseño está optimizado para frecuencias bajas de voz (200 Hz a 3.4 kHz), lo que lo hace ineficiente para música o sonidos complejos. Es eficiente en tasas de bits bajas y se usan comúnmente en mensajes de voz o grabaciones de baja calidad.
+- **AC3** (Audio Codec 3): Formato de audio envolvente (5.1) desarrollado por Dolby para cine, DVD y TV digital. Ofrece buena calidad en tasas moderadas (320-640 kbps). Hoy en día, formatos como Dolby Digital Plus (E-AC3) y Dolby TrueHD lo han reemplazado en aplicaciones modernas.
+- **E-AC3** (Dolby Digital Plus): Formato de audio mejorado de AC3, usado en transmisiones de streaming, Blu-ray y TV digital. Frente a AC3, presenta mayor eficiencia de compresión, admite más canales de audio, soporta audio de mayor calidad, es más compatibile con metadatos avanzados y está optimizado para transmisiones modernas.
+- **THD** (Dolby TrueHD): Formato sin pérdida (lossless) para cine en casa y Blu-ray, diseñado para máxima fidelidad de audio multicanal. Ofrece calidad de estudio y suele integrase en **contenedores .m2ts**.
+- **MIDI** (Musical Instrument Digital Interface): No almacena sonido, sino instrucciones para generar música en sintetizadores o software. También es libre.
+
+------
+
+##### Diseño web
+
+En lo referente a diseño web:
+
+- **MP3** sigue siendo el más común por su amplia compatibilidad.
+- **AAC** es una opción más eficiente en calidad para audio y video.
+- **OGG** es popular en plataformas de código abierto, y Opus se usa en aplicaciones de baja latencia como chat de voz.
+
+------
+
+#### 2.2.4. Aplicaciones
+
+- **Adobe Audition**: se usa para edición y mezcla de audio profesional. Destaca por su facilidad de uso, herramientas avanzadas para restauración de audio y compatibilidad con otros programas de Adobe. Ideal para edición de podcasts, diseño sonoro y mezcla de audio para web y video.
+- **Audacity**: software de edición y grabación de audio gratuito y de código abierto. Es popular por ser sencillo, accesible y compatible con múltiples formatos de audio. Es ideal para edición básica de audio, grabaciones simples y ajustes rápidos.
+- **Logic Pro X**: se usa para producción musical y mezcla de audio en macOS. Es muy popular porque ofrece una biblioteca de instrumentos virtuales y herramientas avanzadas de producción. Ideal para creación de música original y diseño de bandas sonoras para proyectos web.
+- **Pro Tools**: Estándar de la industria para mezcla, edición y masterización de audio profesional. Es robusto, preciso y se utiliza en estudios de grabación y cine. Ideal para producción de audio de alta calidad en proyectos complejos.
+- **GarageBand**: Software de creación de música y grabación de audio en dispositivos Apple. Es gratuito, fácil de usar y perfecto para principiantes. Adecuado para proyectos simples de audio, como jingles o pistas para videos web.
+- **mp3Tag**: Aplicación para editar etiquetas de archivos de audio, como MP3, FLAC y otros formatos. Permite modificar información como el título, el artista, el álbum, la carátula y otros metadatos de manera fácil y rápida.
