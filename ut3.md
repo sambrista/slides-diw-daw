@@ -272,8 +272,8 @@ Las imágenes pequeñas escaladas pueden perder calidad.
 
 ###### Características
 
-- <!-- .element: class="fragment" -->XNo tienen problemas de calidad ni compresión.
-- <!-- .element: class="fragment" -->XOcupan poco espacio.
+- <!-- .element: class="fragment" -->No tienen problemas de calidad ni compresión.
+- <!-- .element: class="fragment" -->Ocupan poco espacio.
 
 ------
 
