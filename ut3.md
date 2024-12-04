@@ -370,22 +370,27 @@ El sonido es una señal analógica que se convierte en digital mediante un proce
 
 - Codificación: Usa el resultado del muestreo y la cuantización para generar archivos de audio. Ejemplos:
 
-- <!-- .element: class="fragment" -->PCM (Pulse Code Modulation): Método base para convertir señales analógicas a digitales, transcribiendo a binario la amplitud cuantificada.
-- <!-- .element: class="fragment" -->Codificación perceptual: Elimina sonidos que el oído humano no puede percibir.
-- <!-- .element: class="fragment" -->Codificación delta: Graba solo los cambios entre muestras sucesivas, ahorrando espacio.
+  - <!-- .element: class="fragment" -->PCM (Pulse Code Modulation): Método base para convertir señales analógicas a digitales, transcribiendo a binario la amplitud cuantificada.
+  - <!-- .element: class="fragment" -->Codificación perceptual: Elimina sonidos que el oído humano no puede percibir.
+  - <!-- .element: class="fragment" -->Codificación delta: Graba solo los cambios entre muestras sucesivas, ahorrando espacio.
 
 ------
 
-#### 2.2.2. Propiedades de un archivo de audio
+#### 2.2.2. Propiedades de un archivo de audio (1/2)
 
-- Bitrate (Tasa de bits): es la cantidad de datos procesados por segundo en un archivo de audio, medida en kilobits por segundo (kbps).
+- <!-- .element: class="fragment" -->Bitrate (Tasa de bits): es la cantidad de datos procesados por segundo en un archivo de audio, medida en kilobits por segundo (kbps).
 - <!-- .element: class="fragment" -->Compresión: con pérdida o sin pérdida. Tamaño y fidelidad.
 - <!-- .element: class="fragment" -->Frecuencia de muestreo (Sample Rate): Muestras de audio por segundo durante la grabación. Hertz (Hz)
 - <!-- .element: class="fragment" -->Profundidad de bits (Bit Depth): cantidad de bits utilizados para representar cada muestra de audio.  
-- <!-- .element: class="fragment" -->Canales de audio: Mono, estéreo y surround.  
+
+------
+
+#### 2.2.2. Propiedades de un archivo de audio (2/2)
+
+- <!-- .element: class="fragment" -->Canales de audio: Mono, estéreo y surround.
 - <!-- .element: class="fragment" -->Tamaño del archivo: espacio que ocupa el archivo.
-- <!-- .element: class="fragment" -->Formato contenedor: "envoltura". Datos del audio y subtítulos, metadatos... . Compatibilidad.
 - <!-- .element: class="fragment" -->Metadatos: Nombre de la canción, artista, carátula del álbum...  
+- <!-- .element: class="fragment" -->Formato contenedor: "envoltura". Datos del audio y subtítulos, metadatos... . Compatibilidad.
 
 ------
 
@@ -461,16 +466,21 @@ En lo referente a diseño web:
 
 ------
 
-#### 2.2.4. Aplicaciones (1/2)
+#### 2.2.4. Aplicaciones (1/3)
 
 - <!-- .element: class="fragment" -->Adobe Audition: se usa para edición y mezcla de audio profesional. Destaca por su facilidad de uso, herramientas avanzadas para restauración de audio y compatibilidad con otros programas de Adobe. Ideal para edición de podcasts, diseño sonoro y mezcla de audio para web y video.
 - <!-- .element: class="fragment" -->Audacity: software de edición y grabación de audio gratuito y de código abierto. Es popular por ser sencillo, accesible y compatible con múltiples formatos de audio. Es ideal para edición básica de audio, grabaciones simples y ajustes rápidos.
-- <!-- .element: class="fragment" -->Logic Pro X: se usa para producción musical y mezcla de audio en macOS. Es muy popular porque ofrece una biblioteca de instrumentos virtuales y herramientas avanzadas de producción. Ideal para creación de música original y diseño de bandas sonoras para proyectos web.
 
 ------
 
-#### 2.2.4. Aplicaciones (2/2)
+#### 2.2.4. Aplicaciones (2/3)
 
+- <!-- .element: class="fragment" -->Logic Pro X: se usa para producción musical y mezcla de audio en macOS. Es muy popular porque ofrece una biblioteca de instrumentos virtuales y herramientas avanzadas de producción. Ideal para creación de música original y diseño de bandas sonoras para proyectos web.
 - <!-- .element: class="fragment" -->Pro Tools: Estándar de la industria para mezcla, edición y masterización de audio profesional. Es robusto, preciso y se utiliza en estudios de grabación y cine. Ideal para producción de audio de alta calidad en proyectos complejos.
+
+------
+
+#### 2.2.4. Aplicaciones (3/3)
+
 - <!-- .element: class="fragment" -->GarageBand: Software de creación de música y grabación de audio en dispositivos Apple. Es gratuito, fácil de usar y perfecto para principiantes. Adecuado para proyectos simples de audio, como jingles o pistas para videos web.
 - <!-- .element: class="fragment" -->mp3Tag: Aplicación para editar etiquetas de archivos de audio, como MP3, FLAC y otros formatos. Permite modificar información como el título, el artista, el álbum, la carátula y otros metadatos de manera fácil y rápida.
