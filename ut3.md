@@ -498,13 +498,13 @@ En lo referente a diseño web:
 
 ------
 
-#### 2.3.1. Pistas (1/4)
+#### 2.3.1. Pistas (1/5)
 
 Un archivo de video es un **contenedor** que está compuesto por múltiples **pistas** o **elementos** que se combinan para crear una experiencia multimedia coherente. Cada pista cumple una función específica y puede contener diferentes tipos de datos. A continuación, se describen los componentes más comunes:
 
 ------
 
-#### 2.3.1. Pistas (2/4)
+#### 2.3.1. Pistas (2/5)
 
 Pista de video: Pista principal. Contiene los fotogramas que forman la imagen en movimiento.
 
@@ -514,7 +514,7 @@ Pista de video: Pista principal. Contiene los fotogramas que forman la imagen en
 
 ------
 
-#### 2.3.1. Pistas (3/4)
+#### 2.3.1. Pistas (3/5)
 
 Pistas de audio: sonido asociado al video.
 
@@ -524,7 +524,7 @@ Pistas de audio: sonido asociado al video.
 
 ------
 
-#### 2.3.1. Pistas (4/4)
+#### 2.3.1. Pistas (4/5)
 
 Pistas de subtítulos
 
@@ -532,44 +532,71 @@ Pistas de subtítulos
   - <!-- .element: class="fragment" -->Tipos: abiertos (No se pueden desactivar) o cerrados (Opcionales y activables por el usuario).
   - <!-- .element: class="fragment" -->Lenguaje: Idioma.
 
-Pista de metadatos: Información adicional.
+------
+
+#### 2.3.1. Pistas (5/5)
+
+Pista de metadatos
 
 ------
 
-#### 2.3.2. Codecs (1/3)
+#### 2.3.2. Codecs (1/6)
 
 Comprimir y descomprimir imágenes del vídeo al almacenar, transmitir y reproducir.
 
+Más usados actualmente:
+
 - <!-- .element: class="fragment" -->H.264 (AVC - Advanced Video Coding): el más utilizado. Excelente relación entre calidad y compresión. Alta compatibilidad y buena calidad.
 - <!-- .element: class="fragment" -->H.265 (HEVC - High Efficiency Video Coding): sucesor de H.264. Compresión más eficiente.
+
+------
+
+#### 2.3.2. Codecs (2/6)
+
+Más usados actualmente:
+
 - <!-- .element: class="fragment" -->VP9: desarrollado por Google como alternativa al H.265. Compresión eficiente y calidad comparable al H.265. Open source. No tan compatible como H.264.
 - <!-- .element: class="fragment" -->AV1: mejor compresión que H.265 y VP9. De código abierto y sin regalías. Futuro estándar para streaming de vídeo de alta calidad. Menor compatibilidad.
 
 ------
 
-#### 2.3.2. Codecs (2/3)
+#### 2.3.2. Codecs (3/6)
 
 Otros:
 
 - <!-- .element: class="fragment" -->MPEG-2: fue el estándar utilizado para los DVDs y algunos sistemas de transmisión de televisión.
 - <!-- .element: class="fragment" -->ProRes: desarrollado por Apple para edición de vídeo profesional. Compresión sin pérdida o con pérdida ligera.
+
+------
+
+#### 2.3.2. Codecs (4/6)
+
+Otros:
+
 - <!-- .element: class="fragment" -->Theora: códec de código abierto diseñado para competir con H.264 y VP8.
 - <!-- .element: class="fragment" -->Motion JPEG (MJPEG): secuencia de imágenes JPEG como fotogramas individuales. Simple pero poco eficiente. Usado por cámaras de seguridad y algunas aplicaciones de videoconferencia.
 
 ------
 
-#### 2.3.2. Codecs (3/3)
+#### 2.3.2. Codecs (5/6)
 
 Otros:
 
 - <!-- .element: class="fragment" -->WMV (Windows Media Video): es un códec desarrollado por Microsoft para la transmisión y reproducción en sistemas Windows.
 - <!-- .element: class="fragment" -->VC-1: códec desarrollado por Microsoft como evolución de **WMV9**.
+
+------
+
+#### 2.3.2. Codecs (6/6)
+
+Otros:
+
 - <!-- .element: class="fragment" -->DivX: códec muy popular en los 2000 para formatos AVI. Eficiente en su época en la compresión de archivos.
 - <!-- .element: class="fragment" -->Xvid: códec de código abierto. Alternativa gratuita al DivX.
 
 ------
 
-#### 2.3.3. Contendores (1/3)
+#### 2.3.3. Contendores (1/5)
 
 Formatos de archivo que almacenan varios tipos de pistas.
 
@@ -579,23 +606,37 @@ Formatos de archivo que almacenan varios tipos de pistas.
 
 ------
 
-#### 2.3.3. Contendores (2/3)
+#### 2.3.3. Contendores (2/5)
 
 Otros formatos conocidos son:
 
 - <!-- .element: class="fragment" -->MPEG: Formato antiguo. Se usa en TV digital y DVDs (MPEG-2).
 - <!-- .element: class="fragment" -->AVI (Audio Video Interleave): Formato muy antiguo y utilizado principalmente en sistemas Windows. Muy compatible. Puede almacenar video sin comprimir. Una sóla pista de audio, sin subtítulos.
+
+------
+
+#### 2.3.3. Contendores (3/5)
+
+Otros formatos conocidos son:
+
 - <!-- .element: class="fragment" -->MOV (QuickTime Movie): Apple. Alta calidad de video, especialmente en producciones profesionales.
 - <!-- .element: class="fragment" -->FLV (Flash Video): Antiguamente utilizado en sitios de video antes de la adopción de HTML5.
 
 ------
 
-#### 2.3.3. Contendores (3/3)
+#### 2.3.3. Contendores (4/5)
 
 Otros formatos conocidos son:
 
 - <!-- .element: class="fragment" -->OGV / OGG: Contenedor abierto usado en el ámbito del código abierto. Libre de patentes.
 - <!-- .element: class="fragment" -->WMV (Windows Media Video): formato desarrollado por Microsoft. Códecs WMV o VC-1, y pistas de audio WMA.
+
+------
+
+#### 2.3.3. Contendores (5/5)
+
+Otros formatos conocidos son:
+
 - <!-- .element: class="fragment" -->ASF (Advanced Systems Format): desarrollado por Microsoft, diseñado principalmente para transmisión por internet.
 - <!-- .element: class="fragment" -->TS (Transport Stream): contenedor estándar para la transmisión de video y audio digital. Televisión digital (DVB, ATSC) y Blu-ray. Resistente a errores de transmisión.
 
@@ -644,26 +685,37 @@ Ejemplo de vídeo y sus características
 
 #### 2.3.5. Aplicaciones
 
-##### Editores de vídeo
+------
 
-En el diseño web, la **edición de vídeo** es una parte clave para crear contenido visualmente atractivo y dinámico. Existen muchas herramientas de edición de vídeo, tanto de pago como gratuitas, que permiten a los diseñadores web optimizar vídeos para la web, adaptarlos a los diferentes dispositivos y plataformas, y mejorar su calidad visual. Aquí te presento algunas de las más utilizadas:
+##### Editores de vídeo (1/3)
 
 ###### Software comercial
 
-- <!-- .element: class="fragment" -->Adobe Premiere Pro: es una de las herramientas más completas y profesionales para la edición de vídeo. Ofrece una amplia gama de características, incluyendo soporte para múltiples formatos, efectos avanzados, corrección de color, y herramientas de audio. Es potente, versátil, y ampliamente utilizado en la industria del cine y la televisión. Soporta una gran variedad de códecs y formatos, incluyendo aquellos más populares en la web.
-- <!-- .element: class="fragment" -->Final Cut Pro: es una herramienta de edición avanzada de Apple para macOS, conocida por su fluidez y rapidez en la edición de vídeos, especialmente en proyectos de alta resolución y complejos. Su  interfaz es intuitiva, se integra perfectamente con otros productos Apple y tiene un potente motor de edición, pero solo está disponible para usuarios de Mac
-- <!-- .element: class="fragment" -->Filmora: es una herramienta de edición sencilla pero poderosa, perfecta para aquellos que desean crear contenido visual de calidad sin complicarse demasiado. Es más accesible que Premiere Pro o Final Cut Pro. Su interfaz es amigable, tiene una amplia gama de plantillas y efectos, y es fácil de usar para principiantes, aunque sus funciones avanzadas son limitadas en comparación con otras herramientas profesionales.
+- <!-- .element: class="fragment" -->Adobe Premiere Pro: la herramienta más completa y profesional.
+- <!-- .element: class="fragment" -->Final Cut Pro: herramienta de edición avanzada de Apple para macOS.
+- <!-- .element: class="fragment" -->Filmora: herramienta de edición sencilla pero poderosa, aunque menos completa que otras soluciones. Versión limitada gratuita.
+
+------
+
+##### Editores de vídeo (2/3)
 
 ###### Software gratuito
 
-- <!-- .element: class="fragment" -->DaVinci Resolve: es una de las herramientas gratuitas más potentes del mercado, conocida por sus avanzadas capacidades de **corrección de color** y edición de audio. Aunque tiene una versión de pago, la versión gratuita cubre la mayoría de las necesidades de los diseñadores web. Ofrece funciones de edición profesional, incluida la corrección de color y efectos visuales avanzados, sin costo alguno pero puede ser más complejo de aprender para principiantes debido a su vasta cantidad de opciones.
-- <!-- .element: class="fragment" -->Shotcut: es una aplicación de edición de vídeo de código abierto y gratuita. Ofrece una amplia gama de funcionalidades, incluyendo soporte para múltiples formatos y una interfaz personalizable. Es gratuito y fácil de usar para principiantes, e incluye una variedad de filtros y efectos, pero su interfaz es algo rudimentaria comparada con herramientas profesionales.
-- <!-- .element: class="fragment" -->HitFilm Express: es un software de edición de vídeo gratuito que incluye una buena gama de efectos visuales y capacidades de composición. Si bien la versión básica es gratuita, muchas funciones avanzadas requieren complementos de pago. Es potente para crear efectos visuales e incluso animaciones complejas, y su interfaz amigable.
-- <!-- .element: class="fragment" -->Lightworks: ofrece una versión gratuita con muchas características profesionales, incluyendo la capacidad de trabajar con vídeos de alta calidad. La versión gratuita limita las exportaciones a 720p.Su interfaz es profesional, y permite realizar edición de vídeo avanzada, pero la curva de aprendizaje puede ser pronunciada.
+- <!-- .element: class="fragment" -->DaVinci Resolve: una de las herramientas gratuitas más potentes del mercado. Gran cantidad de opciones.
+- <!-- .element: class="fragment" -->Shotcut: aplicación de edición de vídeo de código abierto y gratuita. Interfaz algo rudimentaria.
+
+------
+
+##### Editores de vídeo (3/3)
+
+###### Software gratuito
+
+- <!-- .element: class="fragment" -->HitFilm Express: software de edición de vídeo gratuito. Muchas funciones avanzadas requieren complementos de pago.
+- <!-- .element: class="fragment" -->Lightworks: versión gratuita con muchas características profesionales. Limitadas las exportaciones a 720p.
+
+------
 
 ##### Conversores
-
-Son aplicaciones que permiten convertir una pista de vídeo, de audio... o el propio archivo contenedor de un formato a otro.
 
 ------
 
@@ -677,14 +729,15 @@ Son aplicaciones que permiten convertir una pista de vídeo, de audio... o el pr
 
 ###### Software de pago
 
-- <!-- .element: class="fragment" -->Wondershare UniConverter: es una herramienta de pago que ofrece una amplia gama de opciones para convertir, editar y comprimir vídeos. Además de convertir entre más de 1,000 formatos de vídeo, también incluye funciones adicionales como la descarga de vídeos y la creación de DVD. Cuenta con una interfaz intuitiva, alta velocidad de conversión, soporte para conversiones en lotes y edición de vídeos.
-- <!-- .element: class="fragment" -->Movavi Video Converter: es una herramienta de pago fácil de usar que permite convertir vídeos a una variedad de formatos. También incluye herramientas para comprimir, recortar y mejorar la calidad de los vídeos. Es rápida, fácil de usar, y permite conversiones por lotes.
-- <!-- .element: class="fragment" -->Xabe Video Converter: es una opción de pago que soporta una amplia gama de formatos y códecs, ofreciendo también funciones para convertir, editar y comprimir vídeos. Presenta una alta velocidad de conversión e interfaz amigable.
-- <!-- .element: class="fragment" -->Adobe Media Encoder: es una herramienta profesional que permite convertir y exportar vídeos desde diversas aplicaciones de Adobe como Premiere Pro y After Effects. Ofrece compatibilidad con una amplia variedad de formatos y es ideal para flujos de trabajo avanzados. Se integra perfectamente con otros productos de Adobe, y tiene opciones avanzadas de compresión y exportación, pero requiere una suscripción a Adobe Creative Cloud.
+- <!-- .element: class="fragment" -->Wondershare UniConverter
+- <!-- .element: class="fragment" -->Movavi Video Converter
+- <!-- .element: class="fragment" -->Adobe Media Encoder: requiere suscripción a Adobe.
+
+------
 
 ###### Software gratuito
 
-- <!-- .element: class="fragment" -->HandBrake: Es una de las herramientas más populares y de código abierto para la conversión de vídeo. Es compatible con la mayoría de los formatos de vídeo y códecs, y ofrece una variedad de ajustes avanzados, como la optimización de calidad y el ajuste de la tasa de bits. Además es gratuito y fácil de usar, pero la interfaz puede resultar algo técnica para los usuarios novatos.
-- <!-- .element: class="fragment" -->FFmpeg: es una herramienta de línea de comandos extremadamente poderosa y flexible para la conversión de archivos multimedia, incluidos los vídeos. Aunque no tiene una interfaz gráfica por defecto, es muy eficiente y permite personalizar muchas opciones avanzadas de conversión. Soporta una amplia gama de formatos de vídeo y audio, es extremadamente rápido y permite conversiones personalizadas; aunque requiere conocimientos de comandos y no tiene una interfaz gráfica fácil de usar.
-- <!-- .element: class="fragment" -->Any Video Converter (AVC) Free: es una herramienta gratuita que permite convertir casi cualquier tipo de archivo de vídeo. Su interfaz es amigable, soporta una variedad de formatos y permite editar los vídeos antes de convertirlos, pero algunas funciones avanzadas están bloqueadas en la versión gratuita.
-- <!-- .element: class="fragment" -->CloudConvert: es un convertidor en línea que soporta muchos formatos de vídeo. No requiere instalación, y es fácil de usar directamente desde el navegador, pero la versión gratuita tiene limitaciones en cuanto a cantidad de archivos y duración del vídeo.
+- <!-- .element: class="fragment" -->HandBrake
+- <!-- .element: class="fragment" -->FFmpeg: línea de comandos.
+- <!-- .element: class="fragment" -->Any Video Converter (AVC) Free
+- <!-- .element: class="fragment" -->CloudConvert: usable desde el navegador.
